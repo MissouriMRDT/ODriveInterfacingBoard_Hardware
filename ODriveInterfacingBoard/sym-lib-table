@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ODrive1x18Header)(type Legacy)(uri C:/Users/Chris/Documents/GitHub/ODriveInterfacingBoard_Hardware/Libraries/Symbols/ODrive1x18Header.lib)(options "")(descr ""))
+)

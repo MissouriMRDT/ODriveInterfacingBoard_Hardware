@@ -1,0 +1,568 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2550 550  0    99   ~ 20
+DC Vias
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 1 1 5C728113
+P 2000 3800
+F 0 "Conn3" H 1650 3850 60  0000 C CNN
+F 1 "AndersonPP" H 1650 3950 60  0000 C CNN
+F 2 "" H 1850 3250 60  0001 C CNN
+F 3 "" H 1850 3250 60  0001 C CNN
+	1    2000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn8
+U 5 1 5C728232
+P 3700 3450
+F 0 "Conn8" H 3673 3497 60  0000 R CNN
+F 1 "M0_B" H 3673 3603 60  0000 R CNN
+F 2 "" H 3550 2900 60  0001 C CNN
+F 3 "" H 3550 2900 60  0001 C CNN
+	5    3700 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn9
+U 5 1 5C7282A5
+P 3700 3700
+F 0 "Conn9" H 3672 3747 60  0000 R CNN
+F 1 "M0_C" H 3672 3853 60  0000 R CNN
+F 2 "" H 3550 3150 60  0001 C CNN
+F 3 "" H 3550 3150 60  0001 C CNN
+	5    3700 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn7
+U 5 1 5C7282C7
+P 3700 3200
+F 0 "Conn7" H 3673 3247 60  0000 R CNN
+F 1 "M0_A" H 3673 3353 60  0000 R CNN
+F 2 "" H 3550 2650 60  0001 C CNN
+F 3 "" H 3550 2650 60  0001 C CNN
+	5    3700 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn11
+U 5 1 5C7282FB
+P 3700 4200
+F 0 "Conn11" H 3672 4247 60  0000 R CNN
+F 1 "M1_B" H 3672 4353 60  0000 R CNN
+F 2 "" H 3550 3650 60  0001 C CNN
+F 3 "" H 3550 3650 60  0001 C CNN
+	5    3700 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn10
+U 5 1 5C728323
+P 3700 3950
+F 0 "Conn10" H 3672 3997 60  0000 R CNN
+F 1 "M1_A" H 3672 4103 60  0000 R CNN
+F 2 "" H 3550 3400 60  0001 C CNN
+F 3 "" H 3550 3400 60  0001 C CNN
+	5    3700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn12
+U 5 1 5C728351
+P 3700 4450
+F 0 "Conn12" H 3672 4497 60  0000 R CNN
+F 1 "M1_C" H 3672 4603 60  0000 R CNN
+F 2 "" H 3550 3900 60  0001 C CNN
+F 3 "" H 3550 3900 60  0001 C CNN
+	5    3700 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L ODrive1x18Header:ODrive U1
+U 1 1 5C72ABE8
+P 2850 4600
+F 0 "U1" H 2850 6115 50  0000 C CNN
+F 1 "ODrive" H 2850 6024 50  0000 C CNN
+F 2 "" H 3300 4800 50  0001 C CNN
+F 3 "" H 3300 4800 50  0001 C CNN
+	1    2850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 4100 2600 4100
+$Comp
+L Device:R 50W2RJ1
+U 1 1 5C72BB52
+P 2100 4100
+F 0 "50W2RJ1" V 2000 4100 50  0000 C CNN
+F 1 "50W2RJ1" V 1900 4100 50  0000 C CNN
+F 2 "" V 2030 4100 50  0001 C CNN
+F 3 "~" H 2100 4100 50  0001 C CNN
+	1    2100 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 4100 1900 4100
+Wire Wire Line
+	1900 4100 1900 4350
+Wire Wire Line
+	1900 4350 2600 4350
+Wire Wire Line
+	2400 3450 2600 3450
+Wire Wire Line
+	2600 3700 2400 3700
+Wire Wire Line
+	3100 3300 3300 3300
+Wire Wire Line
+	3300 3550 3100 3550
+Wire Wire Line
+	3100 3800 3300 3800
+Wire Wire Line
+	3300 4050 3100 4050
+Wire Wire Line
+	3300 4300 3100 4300
+Wire Wire Line
+	3100 4550 3300 4550
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 4 1 5C72CC94
+P 2000 3550
+F 0 "Conn3" H 2206 3937 60  0000 C CNN
+F 1 "AndersonPP" H 2206 3831 60  0000 C CNN
+F 2 "" H 1850 3000 60  0001 C CNN
+F 3 "" H 1850 3000 60  0001 C CNN
+	4    2000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_07 Conn4
+U 1 1 5C72DB74
+P 2250 3050
+F 0 "Conn4" H 2194 3947 60  0000 C CNN
+F 1 "Molex_SL_07" H 2194 3841 60  0000 C CNN
+F 2 "" H 2250 3250 60  0001 C CNN
+F 3 "" H 2250 3250 60  0001 C CNN
+	1    2250 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_07 Conn5
+U 1 1 5C72DD01
+P 3450 3050
+F 0 "Conn5" H 3600 3100 60  0000 L CNN
+F 1 "Molex_SL_07" V 3500 3100 60  0000 L CNN
+F 2 "" H 3450 3250 60  0001 C CNN
+F 3 "" H 3450 3250 60  0001 C CNN
+	1    3450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2400 2450 2400
+Wire Wire Line
+	2450 2500 2600 2500
+Wire Wire Line
+	2600 2600 2450 2600
+Wire Wire Line
+	2450 2700 2600 2700
+Wire Wire Line
+	2600 2800 2450 2800
+Wire Wire Line
+	3250 2800 3100 2800
+Wire Wire Line
+	3100 2700 3250 2700
+Wire Wire Line
+	3250 2600 3100 2600
+Wire Wire Line
+	3100 2500 3250 2500
+Wire Wire Line
+	3250 2400 3100 2400
+Wire Wire Line
+	3100 2900 3250 2900
+$Comp
+L ODrive1x18Header:ODrive U1
+U 2 1 5C727E4C
+P 2700 3250
+F 0 "U1" H 2850 5215 50  0000 C CNN
+F 1 "ODrive" H 2850 5124 50  0000 C CNN
+F 2 "" H 3150 3150 50  0001 C CNN
+F 3 "" H 3150 3150 50  0001 C CNN
+	2    2700 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2900 2600 2900
+$Comp
+L MRDT_Connectors:Molex_SL_07 Conn6
+U 1 1 5C732A4C
+P 3700 1400
+F 0 "Conn6" V 3827 1808 60  0000 L CNN
+F 1 "Molex_SL_07" V 3827 1702 60  0000 L CNN
+F 2 "" H 3700 1600 60  0001 C CNN
+F 3 "" H 3700 1600 60  0001 C CNN
+	1    3700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1400 3350 1400
+Wire Wire Line
+	3100 1300 3250 1300
+Wire Wire Line
+	3100 1200 3150 1200
+$Comp
+L power:GND #PWR0101
+U 1 1 5C7347C1
+P 3400 950
+F 0 "#PWR0101" H 3400 700 50  0001 C CNN
+F 1 "GND" V 3405 822 50  0000 R CNN
+F 2 "" H 3400 950 50  0001 C CNN
+F 3 "" H 3400 950 50  0001 C CNN
+	1    3400 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5C73481B
+P 3200 850
+F 0 "#PWR0102" H 3200 700 50  0001 C CNN
+F 1 "+5V" H 3215 1023 50  0000 C CNN
+F 2 "" H 3200 850 50  0001 C CNN
+F 3 "" H 3200 850 50  0001 C CNN
+	1    3200 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5C73486E
+P 3400 750
+F 0 "#PWR0103" H 3400 600 50  0001 C CNN
+F 1 "+3V3" H 3415 923 50  0000 C CNN
+F 2 "" H 3400 750 50  0001 C CNN
+F 3 "" H 3400 750 50  0001 C CNN
+	1    3400 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 750  3500 750 
+Wire Wire Line
+	3500 850  3200 850 
+Wire Wire Line
+	3500 950  3400 950 
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn2
+U 1 1 5C736C14
+P 1800 2250
+F 0 "Conn2" H 1744 2947 60  0000 C CNN
+F 1 "Molex_SL_05" H 1744 2841 60  0000 C CNN
+F 2 "" H 1800 2250 60  0001 C CNN
+F 3 "" H 1800 2250 60  0001 C CNN
+	1    1800 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5C736FFD
+P 2100 1800
+F 0 "#PWR0104" H 2100 1650 50  0001 C CNN
+F 1 "+3V3" H 2115 1973 50  0000 C CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 5C73771F
+P 2200 1900
+F 0 "#PWR0105" H 2200 1750 50  0001 C CNN
+F 1 "+5V" H 2215 2073 50  0000 C CNN
+F 2 "" H 2200 1900 50  0001 C CNN
+F 3 "" H 2200 1900 50  0001 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1800 2100 1800
+Wire Wire Line
+	2000 1900 2200 1900
+Wire Wire Line
+	2550 1600 2600 1600
+Wire Wire Line
+	2600 1900 2550 1900
+Wire Wire Line
+	2550 1900 2550 1800
+Wire Wire Line
+	2600 1800 2550 1800
+Connection ~ 2550 1800
+Wire Wire Line
+	2550 1800 2550 1750
+Wire Wire Line
+	2600 1700 2550 1700
+Connection ~ 2550 1700
+Wire Wire Line
+	2550 1700 2550 1600
+$Comp
+L power:GND #PWR0106
+U 1 1 5C73E20E
+P 2400 1750
+F 0 "#PWR0106" H 2400 1500 50  0001 C CNN
+F 1 "GND" H 2405 1577 50  0000 C CNN
+F 2 "" H 2400 1750 50  0001 C CNN
+F 3 "" H 2400 1750 50  0001 C CNN
+	1    2400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2000 2600 2000
+Wire Wire Line
+	2000 2100 2600 2100
+Wire Wire Line
+	2550 1750 2400 1750
+Connection ~ 2550 1750
+Wire Wire Line
+	2550 1750 2550 1700
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn14
+U 1 1 5C7435B7
+P 4450 1650
+F 0 "Conn14" H 4577 1958 60  0000 L CNN
+F 1 "Molex_SL_05" H 4577 1852 60  0000 L CNN
+F 2 "" H 4450 1650 60  0001 C CNN
+F 3 "" H 4450 1650 60  0001 C CNN
+	1    4450 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1600 4250 1600
+Wire Wire Line
+	3100 1500 4250 1500
+$Comp
+L power:GND #PWR0107
+U 1 1 5C74723B
+P 4200 1400
+F 0 "#PWR0107" H 4200 1150 50  0001 C CNN
+F 1 "GND" V 4205 1272 50  0000 R CNN
+F 2 "" H 4200 1400 50  0001 C CNN
+F 3 "" H 4200 1400 50  0001 C CNN
+	1    4200 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 1400 4200 1400
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5C7481AB
+P 4150 1200
+F 0 "#PWR0108" H 4150 1050 50  0001 C CNN
+F 1 "+3V3" H 4165 1373 50  0000 C CNN
+F 2 "" H 4150 1200 50  0001 C CNN
+F 3 "" H 4150 1200 50  0001 C CNN
+	1    4150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0109
+U 1 1 5C748444
+P 4000 1300
+F 0 "#PWR0109" H 4000 1150 50  0001 C CNN
+F 1 "+5V" H 4015 1473 50  0000 C CNN
+F 2 "" H 4000 1300 50  0001 C CNN
+F 3 "" H 4000 1300 50  0001 C CNN
+	1    4000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1300 4000 1300
+Wire Wire Line
+	4250 1200 4150 1200
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 5C74A933
+P 2500 1300
+F 0 "#PWR0110" H 2500 1150 50  0001 C CNN
+F 1 "+3V3" H 2515 1473 50  0000 C CNN
+F 2 "" H 2500 1300 50  0001 C CNN
+F 3 "" H 2500 1300 50  0001 C CNN
+	1    2500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1300 2500 1300
+$Comp
+L MRDT_Connectors:Molex_SL_09 Conn13
+U 1 1 5C74BB81
+P 4150 2550
+F 0 "Conn13" H 4277 3058 60  0000 L CNN
+F 1 "Molex_SL_09" H 4277 2952 60  0000 L CNN
+F 2 "" H 4150 2950 60  0001 C CNN
+F 3 "" H 4150 2950 60  0001 C CNN
+	1    4150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0111
+U 1 1 5C7534F2
+P 3850 2300
+F 0 "#PWR0111" H 3850 2150 50  0001 C CNN
+F 1 "+3V3" V 3865 2428 50  0000 L CNN
+F 2 "" H 3850 2300 50  0001 C CNN
+F 3 "" H 3850 2300 50  0001 C CNN
+	1    3850 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5C753570
+P 3850 2400
+F 0 "#PWR0112" H 3850 2250 50  0001 C CNN
+F 1 "+5V" V 3865 2528 50  0000 L CNN
+F 2 "" H 3850 2400 50  0001 C CNN
+F 3 "" H 3850 2400 50  0001 C CNN
+	1    3850 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5C7535EE
+P 3850 2500
+F 0 "#PWR0113" H 3850 2250 50  0001 C CNN
+F 1 "GND" H 3855 2327 50  0000 C CNN
+F 2 "" H 3850 2500 50  0001 C CNN
+F 3 "" H 3850 2500 50  0001 C CNN
+	1    3850 2500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5100 500  5100 4800
+Wire Notes Line
+	500  4800 5100 4800
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn1
+U 1 1 5C75A9EC
+P 1800 1550
+F 0 "Conn1" H 1744 1947 60  0000 C CNN
+F 1 "Molex_SL_02" H 1744 1841 60  0000 C CNN
+F 2 "" H 1800 1450 60  0001 C CNN
+F 3 "" H 1800 1450 60  0001 C CNN
+	1    1800 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1400 2600 1400
+Wire Wire Line
+	2000 1500 2600 1500
+Wire Wire Line
+	3100 1700 3950 1700
+Wire Wire Line
+	3950 1800 3100 1800
+Wire Wire Line
+	3100 1900 3950 1900
+Wire Wire Line
+	3950 2000 3100 2000
+Wire Wire Line
+	3100 2100 3950 2100
+Wire Wire Line
+	3950 2200 3100 2200
+Wire Wire Line
+	3850 2300 3950 2300
+Wire Wire Line
+	3950 2400 3850 2400
+Wire Wire Line
+	3850 2500 3950 2500
+NoConn ~ 2000 1700
+NoConn ~ 2450 3000
+NoConn ~ 3250 3000
+Wire Wire Line
+	3500 1050 3150 1050
+Wire Wire Line
+	3150 1050 3150 1200
+Wire Wire Line
+	3500 1150 3250 1150
+Wire Wire Line
+	3250 1150 3250 1300
+Wire Wire Line
+	3500 1250 3350 1250
+Wire Wire Line
+	3350 1250 3350 1400
+NoConn ~ 3500 1350
+Text Label 3250 1500 0    49   ~ 0
+Tx
+Text Label 3250 1600 0    49   ~ 0
+Rx
+Text Label 3250 1700 0    49   ~ 0
+GPIO_3
+Text Label 3250 1800 0    49   ~ 0
+GPIO_4
+Text Label 3250 1900 0    49   ~ 0
+GPIO_5
+Text Label 3250 2000 0    49   ~ 0
+GPIO_6
+Text Label 3250 2100 0    49   ~ 0
+GPIO_7
+Text Label 3250 2200 0    49   ~ 0
+GPIO_8
+Text Label 3100 2400 0    49   ~ 0
+E0_3V3
+Text Label 3100 2500 0    49   ~ 0
+E0_5V
+Text Label 3100 2600 0    49   ~ 0
+E0_A
+Text Label 3100 2700 0    49   ~ 0
+E0_B
+Text Label 3100 2800 0    49   ~ 0
+E0_Z
+Text Label 3100 2900 0    49   ~ 0
+E0_GND
+Text Label 2450 2400 0    49   ~ 0
+E1_3V3
+Text Label 2450 2500 0    49   ~ 0
+E1_5V
+Text Label 2450 2600 0    49   ~ 0
+E1_A
+Text Label 2450 2700 0    49   ~ 0
+E1_B
+Text Label 2450 2800 0    49   ~ 0
+E1_Z
+Text Label 2450 2900 0    49   ~ 0
+E1_GND
+Text Label 2200 2100 0    49   ~ 0
+CAN_R
+Text Label 2200 2000 0    49   ~ 0
+CAN_H
+Text Label 3150 1050 0    49   ~ 0
+SCK
+Text Label 3250 1150 0    49   ~ 0
+MISO
+Text Label 3350 1250 0    49   ~ 0
+MOSI
+Text Label 2400 3450 0    49   ~ 0
+PV+
+Text Label 2400 3700 0    49   ~ 0
+GND
+Text Label 3100 3300 0    49   ~ 0
+M0_A
+Text Label 3100 3550 0    49   ~ 0
+M0_B
+Text Label 3100 3800 0    49   ~ 0
+M0_C
+Text Label 3100 4050 0    49   ~ 0
+M1_A
+Text Label 3100 4300 0    49   ~ 0
+M1_B
+Text Label 3100 4550 0    49   ~ 0
+M1_B
+$EndSCHEMATC
