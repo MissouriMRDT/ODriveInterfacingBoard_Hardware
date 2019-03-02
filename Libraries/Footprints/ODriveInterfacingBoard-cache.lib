@@ -132,11 +132,11 @@ X ~ 9 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ODrive1x18Header:ODrive
+# ODrive:ODrive
 #
-DEF ODrive1x18Header:ODrive U 0 40 Y Y 2 L N
+DEF ODrive:ODrive U 0 40 Y Y 2 L N
 F0 "U" 100 150 50 H V C CNN
-F1 "ODrive1x18Header:ODrive" 150 100 50 H V C CNN
+F1 "ODrive:ODrive" 150 100 50 H V C CNN
 F2 "" 450 200 50 H I C CNN
 F3 "" 450 200 50 H I C CNN
 DRAW
