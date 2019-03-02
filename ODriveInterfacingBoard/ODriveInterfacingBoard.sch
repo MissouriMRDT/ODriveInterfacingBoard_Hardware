@@ -22,7 +22,7 @@ U 1 1 5C728113
 P 2000 3800
 F 0 "Conn3" H 1650 3850 60  0000 C CNN
 F 1 "AndersonPP" H 1650 3950 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1850 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1850 3250 60  0001 C CNN
 F 3 "" H 1850 3250 60  0001 C CNN
 	1    2000 3800
 	1    0    0    -1  
@@ -33,7 +33,7 @@ U 2 1 5C728232
 P 3700 3450
 F 0 "Conn7" H 3500 3500 60  0000 C CNN
 F 1 "M0_A" H 3673 3603 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 2900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3550 2900 60  0001 C CNN
 F 3 "" H 3550 2900 60  0001 C CNN
 	2    3700 3450
 	-1   0    0    1   
@@ -44,7 +44,7 @@ U 3 1 5C7282A5
 P 3700 3700
 F 0 "Conn7" H 3350 3750 60  0000 L CNN
 F 1 "M0_A" H 3672 3853 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 3150 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3550 3150 60  0001 C CNN
 F 3 "" H 3550 3150 60  0001 C CNN
 	3    3700 3700
 	-1   0    0    1   
@@ -55,7 +55,7 @@ U 1 1 5C7282C7
 P 3700 3200
 F 0 "Conn7" H 3673 3247 60  0000 R CNN
 F 1 "M0_A" H 3673 3353 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 2650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3550 2650 60  0001 C CNN
 F 3 "" H 3550 2650 60  0001 C CNN
 	1    3700 3200
 	-1   0    0    1   
@@ -66,7 +66,7 @@ U 2 1 5C7282FB
 P 3700 4200
 F 0 "Conn8" H 3500 4250 60  0000 C CNN
 F 1 "M1_A" H 3672 4353 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 3650 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3550 3650 60  0001 C CNN
 F 3 "" H 3550 3650 60  0001 C CNN
 	2    3700 4200
 	-1   0    0    1   
@@ -77,7 +77,7 @@ U 1 1 5C728323
 P 3700 3950
 F 0 "Conn8" H 3672 3997 60  0000 R CNN
 F 1 "M1_A" H 3672 4103 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 3400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3550 3400 60  0001 C CNN
 F 3 "" H 3550 3400 60  0001 C CNN
 	1    3700 3950
 	-1   0    0    1   
@@ -88,7 +88,7 @@ U 3 1 5C728351
 P 3700 4450
 F 0 "Conn8" H 3300 4500 60  0000 L CNN
 F 1 "M1_A" H 3672 4603 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 3900 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3550 3900 60  0001 C CNN
 F 3 "" H 3550 3900 60  0001 C CNN
 	3    3700 4450
 	-1   0    0    1   
@@ -134,7 +134,7 @@ U 4 1 5C72CC94
 P 2000 3550
 F 0 "Conn3" H 2206 3937 60  0000 C CNN
 F 1 "AndersonPP" H 2206 3831 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 1850 3000 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1850 3000 60  0001 C CNN
 F 3 "" H 1850 3000 60  0001 C CNN
 	4    2000 3550
 	1    0    0    -1  
@@ -541,7 +541,7 @@ M1_A
 Text Label 3100 4300 0    49   ~ 0
 M1_B
 Text Label 3100 4550 0    49   ~ 0
-M1_B
+M1_C
 Wire Notes Line
 	10250 450  10300 450 
 $Comp
@@ -1126,7 +1126,7 @@ U 2 1 5C7A5B7A
 P 2700 3250
 F 0 "U1" H 2850 5515 50  0000 C CNN
 F 1 "ODrive" H 2850 5424 50  0000 C CNN
-F 2 "" H 3150 3450 50  0001 C CNN
+F 2 "Footprints:ODriveInterfacingBoard" H 3150 3450 50  0001 C CNN
 F 3 "" H 3150 3450 50  0001 C CNN
 	2    2700 3250
 	1    0    0    -1  
@@ -1137,7 +1137,7 @@ U 1 1 5C7A5CC6
 P 2850 4600
 F 0 "U1" H 2850 6115 50  0000 C CNN
 F 1 "ODrive" H 2850 6024 50  0000 C CNN
-F 2 "" H 3300 4800 50  0001 C CNN
+F 2 "Footprints:ODriveInterfacingBoard" H 3300 4800 50  0001 C CNN
 F 3 "" H 3300 4800 50  0001 C CNN
 	1    2850 4600
 	1    0    0    -1  
