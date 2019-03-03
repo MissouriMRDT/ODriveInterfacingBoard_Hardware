@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device:C
+#
+DEF Device:C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device:LED
 #
 DEF Device:LED D 0 40 N N 1 F N
@@ -75,6 +93,37 @@ X ~ 2 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MRDT_Connectors:Molex_SL_03
+#
+DEF MRDT_Connectors:Molex_SL_03 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors:Molex_SL_03" 50 350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 300 100 0 0 1 0 N
+X ~ 1 -200 250 200 R 50 50 1 1 I
+X ~ 2 -200 150 200 R 50 50 1 1 I
+X ~ 3 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors:Molex_SL_04
+#
+DEF MRDT_Connectors:Molex_SL_04 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors:Molex_SL_04" 50 450 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 400 100 0 0 1 0 N
+X ~ 1 -200 350 200 R 50 50 1 1 I
+X ~ 2 -200 250 200 R 50 50 1 1 I
+X ~ 3 -200 150 200 R 50 50 1 1 I
+X ~ 4 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # MRDT_Connectors:Molex_SL_05
 #
 DEF MRDT_Connectors:Molex_SL_05 Conn 0 40 Y Y 1 F N
@@ -129,6 +178,26 @@ X ~ 6 -200 350 200 R 50 50 1 1 I
 X ~ 7 -200 250 200 R 50 50 1 1 I
 X ~ 8 -200 150 200 R 50 50 1 1 I
 X ~ 9 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_ICs:MAX3077E
+#
+DEF MRDT_ICs:MAX3077E U 0 40 Y Y 1 F N
+F0 "U" 250 -50 50 H V C CNN
+F1 "MRDT_ICs:MAX3077E" 150 450 50 H V C CNN
+F2 "" -100 -50 50 H I C CNN
+F3 "" -100 -50 50 H I C CNN
+DRAW
+S 0 400 300 0 0 1 0 f
+X Vcc 1 -100 350 100 R 50 50 1 1 I
+X RO 2 -100 250 100 R 50 50 1 1 I
+X DI 3 -100 150 100 R 50 50 1 1 I
+X GND 4 -100 50 100 R 50 50 1 1 I
+X Y 5 400 50 100 L 50 50 1 1 I
+X Z 6 400 150 100 L 50 50 1 1 I
+X B 7 400 250 100 L 50 50 1 1 I
+X A 8 400 350 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -193,6 +262,35 @@ X ~ ~ 250 1400 100 R 50 50 1 2 I
 ENDDRAW
 ENDDEF
 #
+# ODriveInterfacingBoard-cache:power:+3V3
+#
+DEF ODriveInterfacingBoard-cache:power:+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "ODriveInterfacingBoard-cache:power:+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# ODriveInterfacingBoard-cache:power:GND
+#
+DEF ODriveInterfacingBoard-cache:power:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "ODriveInterfacingBoard-cache:power:GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power:+3V3
 #
 DEF power:+3V3 #PWR 0 0 Y Y 1 F P
@@ -200,7 +298,6 @@ F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power:+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
