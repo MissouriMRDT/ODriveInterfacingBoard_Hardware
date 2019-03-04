@@ -18,13 +18,13 @@ Text Notes 2550 700  0    99   ~ 20
 DC Vias
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
-U 1 1 5C728113
+U 4 1 5C728113
 P 2050 6650
 F 0 "Conn3" H 1700 6700 60  0000 C CNN
 F 1 "AndersonPP" H 1700 6800 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1900 6100 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 1900 6100 60  0001 C CNN
 F 3 "" H 1900 6100 60  0001 C CNN
-	1    2050 6650
+	4    2050 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -40,24 +40,24 @@ F 3 "" H 3600 5750 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
-U 3 1 5C7282A5
+U 1 1 5C7282A5
 P 3750 6550
 F 0 "Conn7" H 3400 6600 60  0000 L CNN
 F 1 "M0_A" H 3722 6703 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3600 6000 60  0001 C CNN
 F 3 "" H 3600 6000 60  0001 C CNN
-	3    3750 6550
+	1    3750 6550
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn7
-U 1 1 5C7282C7
+U 3 1 5C7282C7
 P 3750 6050
 F 0 "Conn7" H 3723 6097 60  0000 R CNN
 F 1 "M0_A" H 3723 6203 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3600 5500 60  0001 C CNN
 F 3 "" H 3600 5500 60  0001 C CNN
-	1    3750 6050
+	3    3750 6050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -73,24 +73,24 @@ F 3 "" H 3600 6500 60  0001 C CNN
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn8
-U 1 1 5C728323
+U 3 1 5C728323
 P 3750 6800
 F 0 "Conn8" H 3722 6847 60  0000 R CNN
 F 1 "M1_A" H 3722 6953 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3600 6250 60  0001 C CNN
 F 3 "" H 3600 6250 60  0001 C CNN
-	1    3750 6800
+	3    3750 6800
 	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:AndersonPP Conn8
-U 3 1 5C728351
+U 1 1 5C728351
 P 3750 7300
 F 0 "Conn8" H 3350 7350 60  0000 L CNN
 F 1 "M1_A" H 3722 7453 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 3600 6750 60  0001 C CNN
 F 3 "" H 3600 6750 60  0001 C CNN
-	3    3750 7300
+	1    3750 7300
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -130,36 +130,36 @@ Wire Wire Line
 	3150 7400 3350 7400
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
-U 4 1 5C72CC94
+U 1 1 5C72CC94
 P 2050 6400
 F 0 "Conn3" H 2256 6787 60  0000 C CNN
 F 1 "AndersonPP" H 2256 6681 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 1900 5850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 1900 5850 60  0001 C CNN
 F 3 "" H 1900 5850 60  0001 C CNN
-	4    2050 6400
+	1    2050 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_07 Conn4
 U 1 1 5C72DB74
-P 1800 3350
-F 0 "Conn4" H 1744 4247 60  0000 C CNN
-F 1 "Molex_SL_07" H 1744 4141 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 1800 3550 60  0001 C CNN
-F 3 "" H 1800 3550 60  0001 C CNN
-	1    1800 3350
-	-1   0    0    -1  
+P 1800 2650
+F 0 "Conn4" H 1744 3547 60  0000 C CNN
+F 1 "Molex_SL_07" H 1744 3441 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 1800 2850 60  0001 C CNN
+F 3 "" H 1800 2850 60  0001 C CNN
+	1    1800 2650
+	-1   0    0    1   
 $EndComp
 $Comp
 L MRDT_Connectors:Molex_SL_07 Conn5
 U 1 1 5C72DD01
-P 3000 3350
-F 0 "Conn5" H 3150 3400 60  0000 L CNN
-F 1 "Molex_SL_07" V 3050 3400 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 3000 3550 60  0001 C CNN
-F 3 "" H 3000 3550 60  0001 C CNN
-	1    3000 3350
-	1    0    0    -1  
+P 3000 2650
+F 0 "Conn5" H 3150 2700 60  0000 L CNN
+F 1 "Molex_SL_07" V 3050 2700 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 3000 2850 60  0001 C CNN
+F 3 "" H 3000 2850 60  0001 C CNN
+	1    3000 2650
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	2150 2700 2000 2700
@@ -189,7 +189,7 @@ $Comp
 L MRDT_Connectors:Molex_SL_07 Conn6
 U 1 1 5C732A4C
 P 4750 3000
-F 0 "Conn6" V 4877 3408 60  0000 L CNN
+F 0 "Conn6" V 5050 3400 60  0000 L CNN
 F 1 "Molex_SL_07" V 4877 3302 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_07_Horizontal" H 4750 3200 60  0001 C CNN
 F 3 "" H 4750 3200 60  0001 C CNN
@@ -239,7 +239,7 @@ U 1 1 5C736C14
 P 700 2500
 F 0 "Conn2" H 644 3197 60  0000 C CNN
 F 1 "Molex_SL_05" H 644 3091 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 700 2500 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Vertical" H 700 2500 60  0001 C CNN
 F 3 "" H 700 2500 60  0001 C CNN
 	1    700  2500
 	-1   0    0    -1  
@@ -303,29 +303,18 @@ Connection ~ 2100 2050
 Wire Wire Line
 	2100 2050 2100 2000
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn14
-U 1 1 5C7435B7
-P 4750 1750
-F 0 "Conn14" H 4877 2058 60  0000 L CNN
-F 1 "Molex_SL_05" H 4877 1952 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 4750 1750 60  0001 C CNN
-F 3 "" H 4750 1750 60  0001 C CNN
-	1    4750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR013
 U 1 1 5C74723B
-P 4500 1700
-F 0 "#PWR013" H 4500 1450 50  0001 C CNN
-F 1 "GND" V 4505 1572 50  0000 R CNN
-F 2 "" H 4500 1700 50  0001 C CNN
-F 3 "" H 4500 1700 50  0001 C CNN
-	1    4500 1700
+P 4500 1900
+F 0 "#PWR013" H 4500 1650 50  0001 C CNN
+F 1 "GND" V 4505 1772 50  0000 R CNN
+F 2 "" H 4500 1900 50  0001 C CNN
+F 3 "" H 4500 1900 50  0001 C CNN
+	1    4500 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 1700 4500 1700
+	4550 1900 4500 1900
 $Comp
 L power:+3V3 #PWR04
 U 1 1 5C74A933
@@ -345,7 +334,7 @@ U 1 1 5C74BB81
 P 4750 4050
 F 0 "Conn13" H 4877 4558 60  0000 L CNN
 F 1 "Molex_SL_09" H 4877 4452 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_09_Horizontal" H 4750 4450 60  0001 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_09_Vertical" H 4750 4450 60  0001 C CNN
 F 3 "" H 4750 4450 60  0001 C CNN
 	1    4750 4050
 	1    0    0    -1  
@@ -388,13 +377,13 @@ Wire Notes Line
 $Comp
 L MRDT_Connectors:Molex_SL_02 Conn1
 U 1 1 5C75A9EC
-P 1750 1850
-F 0 "Conn1" H 1850 2250 60  0000 C CNN
-F 1 "Molex_SL_02" H 1850 2150 60  0000 C CNN
-F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 1750 1750 60  0001 C CNN
-F 3 "" H 1750 1750 60  0001 C CNN
-	1    1750 1850
-	-1   0    0    -1  
+P 1750 1650
+F 0 "Conn1" H 1850 2050 60  0000 C CNN
+F 1 "Molex_SL_02" H 1850 1950 60  0000 C CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Horizontal" H 1750 1550 60  0001 C CNN
+F 3 "" H 1750 1550 60  0001 C CNN
+	1    1750 1650
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4450 3800 4550 3800
@@ -1116,7 +1105,7 @@ L Device:C C1
 U 1 1 5C80C491
 P 3550 1000
 F 0 "C1" H 3350 1050 50  0000 L CNN
-F 1 "10u" H 3300 950 50  0000 L CNN
+F 1 ".1u" H 3300 950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3588 850 50  0001 C CNN
 F 3 "~" H 3550 1000 50  0001 C CNN
 	1    3550 1000
@@ -1142,17 +1131,6 @@ Wire Wire Line
 	3900 850  3950 850 
 Wire Wire Line
 	3900 850  3900 800 
-$Comp
-L MRDT_Connectors:Molex_SL_04 Conn9
-U 1 1 5C818822
-P 4750 1200
-F 0 "Conn9" H 4877 1458 60  0000 L CNN
-F 1 "Molex_SL_04" H 4877 1352 60  0000 L CNN
-F 2 "MRDT_Connectors:MOLEX_SL_04_Horizontal" H 4750 1200 60  0001 C CNN
-F 3 "" H 4750 1200 60  0001 C CNN
-	1    4750 1200
-	1    0    0    -1  
-$EndComp
 Text GLabel 3450 1800 2    50   Output ~ 0
 Tx
 Text GLabel 3450 1900 2    50   Input ~ 0
@@ -1161,14 +1139,6 @@ Text GLabel 3900 950  0    50   Input ~ 0
 Tx
 Text GLabel 3900 1050 0    50   Output ~ 0
 Rx
-Wire Wire Line
-	4450 850  4550 850 
-Wire Wire Line
-	4550 950  4450 950 
-Wire Wire Line
-	4450 1050 4550 1050
-Wire Wire Line
-	4550 1150 4450 1150
 Wire Wire Line
 	2650 1800 3050 1800
 Wire Wire Line
@@ -1197,14 +1167,14 @@ Wire Wire Line
 	3900 950  3950 950 
 Wire Wire Line
 	3950 1050 3900 1050
-Text GLabel 4500 1500 0    50   Input ~ 0
+Text GLabel 4500 1800 0    50   Input ~ 0
 Tx
-Text GLabel 4500 1600 0    50   Output ~ 0
+Text GLabel 4500 1700 0    50   Output ~ 0
 Rx
 Wire Wire Line
-	4500 1500 4550 1500
+	4500 1700 4550 1700
 Wire Wire Line
-	4550 1600 4500 1600
+	4550 1800 4500 1800
 Text GLabel 2700 1500 2    50   Output ~ 0
 SCK
 Text GLabel 2700 1600 2    50   Output ~ 0
@@ -1217,11 +1187,11 @@ Wire Wire Line
 	2700 1600 2650 1600
 Wire Wire Line
 	2650 1700 2700 1700
-Text GLabel 4500 2650 0    50   Input ~ 0
+Text GLabel 4500 2850 0    50   Input ~ 0
 SCK
 Text GLabel 4500 2750 0    50   Input ~ 0
 MISO
-Text GLabel 4500 2850 0    50   Input ~ 0
+Text GLabel 4500 2650 0    50   Input ~ 0
 MOSI
 Wire Wire Line
 	4500 2650 4550 2650
@@ -1255,17 +1225,17 @@ Wire Wire Line
 	2650 2400 2750 2400
 Wire Wire Line
 	2750 2500 2650 2500
-Text GLabel 4450 3200 0    50   Input ~ 0
-GPIO_3
-Text GLabel 4450 3300 0    50   Input ~ 0
-GPIO_4
-Text GLabel 4450 3400 0    50   Input ~ 0
-GPIO_5
-Text GLabel 4450 3500 0    50   Input ~ 0
-GPIO_6
-Text GLabel 4450 3600 0    50   Input ~ 0
-GPIO_7
 Text GLabel 4450 3700 0    50   Input ~ 0
+GPIO_3
+Text GLabel 4450 3600 0    50   Input ~ 0
+GPIO_4
+Text GLabel 4450 3500 0    50   Input ~ 0
+GPIO_5
+Text GLabel 4450 3400 0    50   Input ~ 0
+GPIO_6
+Text GLabel 4450 3300 0    50   Input ~ 0
+GPIO_7
+Text GLabel 4450 3200 0    50   Input ~ 0
 GPIO_8
 Wire Wire Line
 	4450 3200 4550 3200
@@ -1283,4 +1253,90 @@ Wire Wire Line
 	1950 1700 2150 1700
 Wire Wire Line
 	2150 1800 1950 1800
+$Comp
+L ODriveInterfacingBoard-cache:power:GND #PWR0104
+U 1 1 5C98C91D
+P 5050 1300
+F 0 "#PWR0104" H 5050 1050 50  0001 C CNN
+F 1 "power:GND" H 5055 1127 50  0000 C CNN
+F 2 "" H 5050 1300 50  0001 C CNN
+F 3 "" H 5050 1300 50  0001 C CNN
+	1    5050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5C98CA28
+P 4800 900
+F 0 "R18" H 4870 946 50  0000 L CNN
+F 1 "120" V 4800 850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4730 900 50  0001 C CNN
+F 3 "~" H 4800 900 50  0001 C CNN
+	1    4800 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 950  4700 950 
+Wire Wire Line
+	4700 950  4700 1050
+Wire Wire Line
+	4700 1050 4800 1050
+Wire Wire Line
+	4700 850  4700 750 
+Wire Wire Line
+	4700 750  4800 750 
+Wire Wire Line
+	4450 850  4700 850 
+Wire Wire Line
+	4800 750  4900 750 
+Wire Wire Line
+	4900 750  4900 850 
+Wire Wire Line
+	4900 850  5150 850 
+Connection ~ 4800 750 
+Wire Wire Line
+	4800 1050 4900 1050
+Wire Wire Line
+	4900 1050 4900 950 
+Wire Wire Line
+	4900 950  5150 950 
+Connection ~ 4800 1050
+Wire Wire Line
+	4650 1050 4650 1100
+Wire Wire Line
+	4650 1100 4950 1100
+Wire Wire Line
+	4950 1100 4950 1050
+Wire Wire Line
+	4950 1050 5150 1050
+Wire Wire Line
+	4450 1050 4650 1050
+Wire Wire Line
+	4450 1150 5150 1150
+Wire Wire Line
+	5150 1250 5050 1250
+Wire Wire Line
+	5050 1250 5050 1300
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn9
+U 1 1 5C9F2E94
+P 4750 1950
+F 0 "Conn9" H 4877 2158 60  0000 L CNN
+F 1 "Molex_SL_03" H 4877 2052 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_03_Horizontal" H 4750 1950 60  0001 C CNN
+F 3 "" H 4750 1950 60  0001 C CNN
+	1    4750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:Molex_SL_05 Conn10
+U 1 1 5C9F30EB
+P 5350 1300
+F 0 "Conn10" H 5477 1608 60  0000 L CNN
+F 1 "Molex_SL_05" H 5477 1502 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_05_Horizontal" H 5350 1300 60  0001 C CNN
+F 3 "" H 5350 1300 60  0001 C CNN
+	1    5350 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
