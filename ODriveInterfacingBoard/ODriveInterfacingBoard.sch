@@ -1283,4 +1283,12 @@ Text GLabel 9450 3150 1    50   Input ~ 0
 M1_A
 Text GLabel 9900 4300 3    50   Output ~ 0
 M1_A
+Text Label 5000 850  0    50   ~ 0
+A
+Text Label 5000 950  0    50   ~ 0
+B
+Text Label 5000 1150 0    50   ~ 0
+Z
+Text Label 5000 1250 0    50   ~ 0
+Y
 $EndSCHEMATC
