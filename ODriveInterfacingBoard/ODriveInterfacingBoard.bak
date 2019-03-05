@@ -1273,4 +1273,8 @@ Text Label 4950 1150 0    50   ~ 0
 Z
 Text Label 4950 1250 0    50   ~ 0
 Y
+Text Label 2000 1700 0    50   ~ 0
+AVCC
+Text Label 2000 1800 0    50   ~ 0
+AGND
 $EndSCHEMATC

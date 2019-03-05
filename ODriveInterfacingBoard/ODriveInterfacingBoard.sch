@@ -902,9 +902,9 @@ Text GLabel 3050 1800 2    50   Output ~ 0
 Tx
 Text GLabel 3050 1900 2    50   Input ~ 0
 Rx
-Text GLabel 3900 950  0    50   Input ~ 0
+Text GLabel 3900 1050 0    50   Input ~ 0
 Tx
-Text GLabel 3900 1050 0    50   Output ~ 0
+Text GLabel 3900 950  0    50   Output ~ 0
 Rx
 Wire Wire Line
 	2650 1800 3050 1800
