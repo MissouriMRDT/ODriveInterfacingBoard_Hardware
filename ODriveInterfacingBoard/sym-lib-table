@@ -10,4 +10,5 @@
   (lib (name MRDT_Shields)(type Legacy)(uri C:/MRDT_KICAD_Libraries-2019r2/Symbols/MRDT_Shields.lib)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type Legacy)(uri C:/MRDT_KICAD_Libraries-2019r2/Symbols/MRDT_Silkscreens.lib)(options "")(descr ""))
   (lib (name MRDT_Switches)(type Legacy)(uri C:/MRDT_KICAD_Libraries-2019r2/Symbols/MRDT_Switches.lib)(options "")(descr ""))
+  (lib (name ODriveInterfacingBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/ODriveInterfacingBoard-rescue.lib)(options "")(descr ""))
 )
