@@ -689,39 +689,6 @@ F 3 "" H 7850 2500 50  0001 C CNN
 	1    7850 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 5C745409
-P 8100 4300
-F 0 "#PWR018" H 8100 4050 50  0001 C CNN
-F 1 "GND" H 8105 4127 50  0000 C CNN
-F 2 "" H 8100 4300 50  0001 C CNN
-F 3 "" H 8100 4300 50  0001 C CNN
-	1    8100 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR020
-U 1 1 5C74545C
-P 9000 4300
-F 0 "#PWR020" H 9000 4050 50  0001 C CNN
-F 1 "GND" H 9005 4127 50  0000 C CNN
-F 2 "" H 9000 4300 50  0001 C CNN
-F 3 "" H 9000 4300 50  0001 C CNN
-	1    9000 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR022
-U 1 1 5C745587
-P 9900 4300
-F 0 "#PWR022" H 9900 4050 50  0001 C CNN
-F 1 "GND" H 9905 4127 50  0000 C CNN
-F 2 "" H 9900 4300 50  0001 C CNN
-F 3 "" H 9900 4300 50  0001 C CNN
-	1    9900 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 2300 6950 2500
 Wire Wire Line
@@ -747,12 +714,6 @@ F 3 "" H 7850 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7850 1350 7850 1550
-Text GLabel 7650 3150 1    50   Input ~ 0
-PV+
-Text GLabel 8550 3150 1    50   Input ~ 0
-PV+
-Text GLabel 9450 3150 1    50   Input ~ 0
-PV+
 Wire Wire Line
 	7650 3150 7650 3350
 Wire Wire Line
@@ -911,51 +872,12 @@ Wire Wire Line
 	10100 1850 10100 2000
 Wire Wire Line
 	10550 2000 10550 1850
-$Comp
-L power:GND #PWR019
-U 1 1 5C761D1A
-P 8750 2500
-F 0 "#PWR019" H 8750 2250 50  0001 C CNN
-F 1 "GND" H 8755 2327 50  0000 C CNN
-F 2 "" H 8750 2500 50  0001 C CNN
-F 3 "" H 8750 2500 50  0001 C CNN
-	1    8750 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR021
-U 1 1 5C761D20
-P 9650 2500
-F 0 "#PWR021" H 9650 2250 50  0001 C CNN
-F 1 "GND" H 9655 2327 50  0000 C CNN
-F 2 "" H 9650 2500 50  0001 C CNN
-F 3 "" H 9650 2500 50  0001 C CNN
-	1    9650 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR023
-U 1 1 5C761D26
-P 10550 2500
-F 0 "#PWR023" H 10550 2250 50  0001 C CNN
-F 1 "GND" H 10555 2327 50  0000 C CNN
-F 2 "" H 10550 2500 50  0001 C CNN
-F 3 "" H 10550 2500 50  0001 C CNN
-	1    10550 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8750 2300 8750 2500
 Wire Wire Line
 	9650 2500 9650 2300
 Wire Wire Line
 	10550 2300 10550 2500
-Text GLabel 8300 1350 1    50   Input ~ 0
-PV+
-Text GLabel 9200 1350 1    50   Input ~ 0
-PV+
-Text GLabel 10100 1350 1    50   Input ~ 0
-PV+
 Wire Wire Line
 	8300 1350 8300 1550
 Wire Wire Line
@@ -964,11 +886,11 @@ Wire Wire Line
 	10100 1350 10100 1550
 Wire Notes Line
 	500  5000 10250 5000
-Text GLabel 8300 2500 3    50   Input ~ 0
+Text GLabel 8300 2500 3    50   Output ~ 0
 M0_A
-Text GLabel 9200 2500 3    50   Input ~ 0
+Text GLabel 9200 2500 3    50   Output ~ 0
 M0_B
-Text GLabel 10100 2500 3    50   Input ~ 0
+Text GLabel 10100 2500 3    50   Output ~ 0
 M0_C
 Wire Wire Line
 	10100 2300 10100 2500
@@ -988,11 +910,11 @@ Wire Wire Line
 	9650 1550 9650 1350
 Wire Wire Line
 	10550 1350 10550 1550
-Text GLabel 7650 4300 3    50   Input ~ 0
+Text GLabel 7650 4300 3    50   Output ~ 0
 M1_A
-Text GLabel 8550 4300 3    50   Input ~ 0
+Text GLabel 8550 4300 3    50   Output ~ 0
 M1_B
-Text GLabel 9450 4300 3    50   Input ~ 0
+Text GLabel 9450 4300 3    50   Output ~ 0
 M1_C
 Wire Wire Line
 	7650 4100 7650 4300
@@ -1015,7 +937,7 @@ Wire Wire Line
 Text Notes 8350 900  0    87   ~ 17
 Indicators
 $Comp
-L ODrive:ODrive U1
+L ODriveInterfacingBoard-rescue:ODrive-ODrive U1
 U 2 1 5C7A5B7A
 P 2250 3550
 F 0 "U1" H 2400 5815 50  0000 C CNN
@@ -1026,7 +948,7 @@ F 3 "" H 2700 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODrive:ODrive U1
+L ODriveInterfacingBoard-rescue:ODrive-ODrive U1
 U 1 1 5C7A5CC6
 P 2900 7450
 F 0 "U1" H 2900 8965 50  0000 C CNN
@@ -1282,7 +1204,7 @@ $EndComp
 Wire Wire Line
 	4300 1800 4550 1800
 $Comp
-L ODriveInterfacingBoard-cache:power:GND #PWR0101
+L ODriveInterfacingBoard-rescue:power_GND-ODriveInterfacingBoard-cache #PWR0101
 U 1 1 5CA0D82E
 P 5100 1050
 F 0 "#PWR0101" H 5100 800 50  0001 C CNN
@@ -1293,7 +1215,7 @@ F 3 "" H 5100 1050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-cache:power:+3V3 #PWR0102
+L ODriveInterfacingBoard-rescue:power_+3V3-ODriveInterfacingBoard-cache #PWR0102
 U 1 1 5CA0DA4A
 P 3900 800
 F 0 "#PWR0102" H 3900 650 50  0001 C CNN
@@ -1304,7 +1226,7 @@ F 3 "" H 3900 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-cache:power:GND #PWR0103
+L ODriveInterfacingBoard-rescue:power_GND-ODriveInterfacingBoard-cache #PWR0103
 U 1 1 5CA0DB15
 P 3900 1200
 F 0 "#PWR0103" H 3900 950 50  0001 C CNN
@@ -1327,7 +1249,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1250 5150 1250
 $Comp
-L ODriveInterfacingBoard-cache:power:GND #PWR0104
+L ODriveInterfacingBoard-rescue:power_GND-ODriveInterfacingBoard-cache #PWR0104
 U 1 1 5CA296E8
 P 950 2500
 F 0 "#PWR0104" H 950 2250 50  0001 C CNN
@@ -1337,4 +1259,28 @@ F 3 "" H 950 2500 50  0001 C CNN
 	1    950  2500
 	1    0    0    -1  
 $EndComp
+Text GLabel 8750 2500 3    50   Output ~ 0
+M0_B
+Text GLabel 8300 1350 1    50   Input ~ 0
+M0_B
+Text GLabel 9650 2500 3    50   Output ~ 0
+M0_C
+Text GLabel 9200 1350 1    50   Input ~ 0
+M0_C
+Text GLabel 10100 1350 1    50   Input ~ 0
+M0_A
+Text GLabel 10550 2500 3    50   Output ~ 0
+M0_A
+Text GLabel 7650 3150 1    50   Input ~ 0
+M1_B
+Text GLabel 8100 4300 3    50   Output ~ 0
+M1_B
+Text GLabel 8550 3150 1    50   Input ~ 0
+M1_C
+Text GLabel 9000 4300 3    50   Output ~ 0
+M1_C
+Text GLabel 9450 3150 1    50   Input ~ 0
+M1_A
+Text GLabel 9900 4300 3    50   Output ~ 0
+M1_A
 $EndSCHEMATC
