@@ -9,7 +9,5 @@
   (lib (name MRDT_Shields)(type KiCad)(uri C:/MRDT_KICAD_Libraries-2019r2/Package/MRDT_Shields.pretty)(options "")(descr ""))
   (lib (name MRDT_Silkscreens)(type KiCad)(uri C:/MRDT_KICAD_Libraries-2019r2/Package/MRDT_Silkscreens.pretty)(options "")(descr ""))
   (lib (name MRDT_Switches)(type KiCad)(uri C:/MRDT_KICAD_Libraries-2019r2/Package/MRDT_Switches.pretty)(options "")(descr ""))
-  (lib (name Libraries)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/ODriveInterfacingBoard_Hardware/Libraries)(options "")(descr ""))
-  (lib (name Symbols)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/ODriveInterfacingBoard_Hardware/Libraries/Symbols)(options "")(descr ""))
-  (lib (name Footprints)(type KiCad)(uri C:/Users/Chris/Documents/GitHub/ODriveInterfacingBoard_Hardware/Libraries/Footprints)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri C:/Users/andre/OneDrive/Documents/Rover/GitHub/Hardware/ODriveInterfacingBoard_Hardware/Libraries/Footprints/Footprints.pretty)(options "")(descr ""))
 )
