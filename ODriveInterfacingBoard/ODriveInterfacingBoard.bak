@@ -18,13 +18,13 @@ Text Notes 2550 700  0    99   ~ 20
 DC Vias
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
-U 1 1 5C728113
+U 4 1 5C728113
 P 2050 6650
 F 0 "Conn3" H 1700 6700 60  0000 C CNN
 F 1 "AndersonPP" H 1700 6800 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 1900 6100 60  0001 C CNN
 F 3 "" H 1900 6100 60  0001 C CNN
-	1    2050 6650
+	4    2050 6650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -130,13 +130,13 @@ Wire Wire Line
 	3150 7400 3350 7400
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
-U 4 1 5C72CC94
+U 1 1 5C72CC94
 P 2050 6400
 F 0 "Conn3" H 2256 6787 60  0000 C CNN
 F 1 "AndersonPP" H 2256 6681 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 1900 5850 60  0001 C CNN
 F 3 "" H 1900 5850 60  0001 C CNN
-	4    2050 6400
+	1    2050 6400
 	1    0    0    -1  
 $EndComp
 $Comp
