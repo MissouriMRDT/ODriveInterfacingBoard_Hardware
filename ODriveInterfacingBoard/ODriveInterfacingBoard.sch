@@ -182,9 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 2700 2650 2700
 Wire Wire Line
-	2650 3200 2800 3200
-Wire Wire Line
-	2000 3200 2150 3200
+	2000 3200 2100 3200
 $Comp
 L MRDT_Connectors:Molex_SL_07 Conn6
 U 1 1 5C732A4C
@@ -305,12 +303,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR013
 U 1 1 5C74723B
-P 4300 1800
-F 0 "#PWR013" H 4300 1550 50  0001 C CNN
-F 1 "GND" V 4305 1672 50  0000 R CNN
-F 2 "" H 4300 1800 50  0001 C CNN
-F 3 "" H 4300 1800 50  0001 C CNN
-	1    4300 1800
+P 3850 1850
+F 0 "#PWR013" H 3850 1600 50  0001 C CNN
+F 1 "GND" V 3855 1722 50  0000 R CNN
+F 2 "" H 3850 1850 50  0001 C CNN
+F 3 "" H 3850 1850 50  0001 C CNN
+	1    3850 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -394,10 +392,6 @@ Wire Wire Line
 NoConn ~ 2000 3300
 NoConn ~ 2800 3300
 NoConn ~ 4550 2950
-Text Label 2800 1800 0    49   ~ 0
-Tx
-Text Label 2800 1900 0    49   ~ 0
-Rx
 Text Label 2650 2700 0    49   ~ 0
 E0_3V3
 Text Label 2650 2800 0    49   ~ 0
@@ -408,8 +402,6 @@ Text Label 2650 3000 0    49   ~ 0
 E0_B
 Text Label 2650 3100 0    49   ~ 0
 E0_Z
-Text Label 2650 3200 0    49   ~ 0
-E0_GND
 Text Label 2000 2700 0    49   ~ 0
 E1_3V3
 Text Label 2000 2800 0    49   ~ 0
@@ -675,10 +667,10 @@ Wire Wire Line
 	8750 3300 8750 3100
 Wire Wire Line
 	9650 3100 9650 3300
-Text GLabel 6950 1350 1    50   Input ~ 0
-GPIO1
 Text GLabel 7400 1350 1    50   Input ~ 0
-GPIO2
+Rx
+Text GLabel 6950 1350 1    50   Input ~ 0
+Tx
 Wire Wire Line
 	6950 1350 6950 1550
 Wire Wire Line
@@ -851,23 +843,23 @@ Wire Wire Line
 $Comp
 L Device:R R16
 U 1 1 5C7E4FB3
-P 3200 1800
-F 0 "R16" V 3100 1800 50  0000 C CNN
-F 1 "0" V 3200 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 1800 50  0001 C CNN
-F 3 "~" H 3200 1800 50  0001 C CNN
-	1    3200 1800
+P 4350 1700
+F 0 "R16" V 4250 1700 50  0000 C CNN
+F 1 "0" V 4350 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 1700 50  0001 C CNN
+F 3 "~" H 4350 1700 50  0001 C CNN
+	1    4350 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R17
 U 1 1 5C7E5124
-P 3200 1900
-F 0 "R17" V 3300 1900 50  0000 C CNN
-F 1 "0" V 3200 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3130 1900 50  0001 C CNN
-F 3 "~" H 3200 1900 50  0001 C CNN
-	1    3200 1900
+P 4350 1900
+F 0 "R17" V 4450 1900 50  0000 C CNN
+F 1 "0" V 4350 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4280 1900 50  0001 C CNN
+F 3 "~" H 4350 1900 50  0001 C CNN
+	1    4350 1900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -906,9 +898,9 @@ Wire Wire Line
 	3900 850  3950 850 
 Wire Wire Line
 	3900 850  3900 800 
-Text GLabel 3450 1800 2    50   Output ~ 0
+Text GLabel 3050 1800 2    50   Output ~ 0
 Tx
-Text GLabel 3450 1900 2    50   Input ~ 0
+Text GLabel 3050 1900 2    50   Input ~ 0
 Rx
 Text GLabel 3900 950  0    50   Input ~ 0
 Tx
@@ -918,10 +910,6 @@ Wire Wire Line
 	2650 1800 3050 1800
 Wire Wire Line
 	2650 1900 3050 1900
-Wire Wire Line
-	3350 1900 3450 1900
-Wire Wire Line
-	3350 1800 3450 1800
 Text GLabel 2100 2300 0    50   Output ~ 0
 CAN_H
 Text GLabel 2100 2400 0    50   Output ~ 0
@@ -942,9 +930,9 @@ Wire Wire Line
 	3900 950  3950 950 
 Wire Wire Line
 	3950 1050 3900 1050
-Text GLabel 4500 1700 0    50   Input ~ 0
+Text GLabel 4150 1700 0    50   Input ~ 0
 Tx
-Text GLabel 4500 1900 0    50   Output ~ 0
+Text GLabel 4150 1900 0    50   Output ~ 0
 Rx
 Wire Wire Line
 	4500 1700 4550 1700
@@ -1087,8 +1075,6 @@ F 3 "" H 5350 1300 60  0001 C CNN
 	1    5350 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 1800 4550 1800
 $Comp
 L ODriveInterfacingBoard-rescue:power_GND-ODriveInterfacingBoard-cache #PWR0101
 U 1 1 5CA0D82E
@@ -1260,4 +1246,35 @@ Wire Wire Line
 Connection ~ 9650 4300
 Wire Wire Line
 	9650 4300 9450 4300
+Wire Wire Line
+	2800 3200 2700 3200
+Wire Wire Line
+	2700 3200 2700 3350
+Wire Wire Line
+	2700 3350 2100 3350
+Wire Wire Line
+	2100 3350 2100 3200
+Connection ~ 2100 3200
+Wire Wire Line
+	2100 3200 2150 3200
+Wire Wire Line
+	4200 1700 4150 1700
+Wire Wire Line
+	4150 1900 4200 1900
+Wire Wire Line
+	3850 1800 3850 1850
+Wire Wire Line
+	3850 1800 4550 1800
+Text Label 4950 850  0    50   ~ 0
+A
+Text Label 4950 950  0    50   ~ 0
+B
+Text Label 4950 1150 0    50   ~ 0
+Z
+Text Label 4950 1250 0    50   ~ 0
+Y
+Text Label 2000 1700 0    50   ~ 0
+AVCC
+Text Label 2000 1800 0    50   ~ 0
+AGND
 $EndSCHEMATC
