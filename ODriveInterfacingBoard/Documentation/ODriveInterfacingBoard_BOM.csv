@@ -35,3 +35,4 @@ Id,Designator,Package,Designation,,Item Name,Item Number,,,Vendor,Quantity,Cost 
 30,Conn13,MOLEX_SL_09_Vertical,Molex_SL_09,,CONN HEADER VERT 9POS 2.54MM,WM4831-ND,,,DigiKey,1,$1.43 ,,,https://www.digikey.com/product-detail/en/molex-llc/0705430043/WM4831-ND/313746
 31,Conn9,MOLEX_SL_03_Horizontal,Molex_SL_03,,CONN HEADER R/A 3POS 2.54MM,WM4901-ND,,,DigiKey,1,$1.12 ,,,https://www.digikey.com/products/en?keywords=WM4901-ND
 32,Conn10,MOLEX_SL_05_Horizontal,Molex_SL_05,,CONN HEADER R/A 5POS 2.54MM,WM4903-ND,,,DigiKey,1,$1.21 ,,,https://www.digikey.com/products/en?keywords=WM4903-ND
+33,,Board spacers,,,"HEX STANDOFF #4-40 ALUMINUM 1/2""",1772-1098-ND,,,DigiKey,4,$0.47 ,,,https://www.digikey.com/product-detail/en/raf-electronic-hardware/4505-440-AL/1772-1098-ND/7680509
