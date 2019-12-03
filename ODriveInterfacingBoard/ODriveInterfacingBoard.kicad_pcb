@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 2)
+    (drawings 13)
     (tracks 0)
     (zones 0)
     (modules 32)
@@ -1222,7 +1222,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_03_Horizontal (layer F.Cu) (tedit 5DD8951F) (tstamp 5DE37F63)
-    (at 137.16 115.57 180)
+    (at 150.749 109.728 180)
     (path /5C9F2E94)
     (fp_text reference Conn9 (at 1.27 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1259,7 +1259,7 @@
   )
 
   (module MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side (layer F.Cu) (tedit 5DD896EA) (tstamp 5DE37F4D)
-    (at 254 128.27 90)
+    (at 186.563 104.902 90)
     (path /5C7282FB)
     (fp_text reference Conn8 (at -5.588 20.447 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1309,7 +1309,7 @@
   )
 
   (module MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side (layer F.Cu) (tedit 5DD896EA) (tstamp 5DE37F2A)
-    (at 48.006 115.57 90)
+    (at 92.456 104.902 90)
     (path /5C728232)
     (fp_text reference Conn7 (at -5.588 20.447 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1359,7 +1359,7 @@
   )
 
   (module MRDT_Connectors:Anderson_2_Horizontal_Stacked (layer F.Cu) (tedit 5DC33662) (tstamp 5DE37F07)
-    (at 146.05 115.57 90)
+    (at 221.234 111.125 90)
     (path /5C728113)
     (fp_text reference Conn3 (at -5.461 4.826 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1395,7 +1395,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_05_Horizontal (layer F.Cu) (tedit 5DD89585) (tstamp 5DE37EF1)
-    (at 173.370001 151.083001)
+    (at 178.689 109.728 180)
     (path /5DEA808C)
     (fp_text reference Conn2 (at 1.27 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1422,17 +1422,17 @@
     (fp_line (start -3.175 -13.208) (end 13.335 -13.208) (layer F.SilkS) (width 0.15))
     (fp_line (start 8.89 -12.7) (end 8.89 -13.208) (layer F.SilkS) (width 0.15))
     (fp_line (start 1.27 -13.208) (end 1.27 -12.7) (layer F.SilkS) (width 0.15))
-    (pad "" np_thru_hole circle (at 11.43 -8.636) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -1.27 -8.636) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
-    (pad 5 thru_hole circle (at 10.16 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 11.43 -8.636 180) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.27 -8.636 180) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
+    (pad 5 thru_hole circle (at 10.16 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 28 R_Encoder_Gnd))
-    (pad 4 thru_hole circle (at 7.62 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 4 thru_hole circle (at 7.62 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 29 R_Encoder_ZO))
-    (pad 3 thru_hole circle (at 5.08 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 3 thru_hole circle (at 5.08 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 30 R_Encoder_BO))
-    (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 2.54 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 31 R_Encoder_AO))
-    (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 32 R_Encoder_5V))
     (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_05_Horizontal.stp"
       (offset (xyz 12.69999980926514 12.95399980545044 0))
@@ -1442,7 +1442,7 @@
   )
 
   (module MRDT_Connectors:MOLEX_SL_05_Horizontal (layer F.Cu) (tedit 5DD89585) (tstamp 5DE37ED3)
-    (at 155.710001 151.083001)
+    (at 127.381 109.601 180)
     (path /5DEA66CB)
     (fp_text reference Conn1 (at 1.27 2.54) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1469,17 +1469,17 @@
     (fp_line (start -3.175 -13.208) (end 13.335 -13.208) (layer F.SilkS) (width 0.15))
     (fp_line (start 8.89 -12.7) (end 8.89 -13.208) (layer F.SilkS) (width 0.15))
     (fp_line (start 1.27 -13.208) (end 1.27 -12.7) (layer F.SilkS) (width 0.15))
-    (pad "" np_thru_hole circle (at 11.43 -8.636) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
-    (pad "" np_thru_hole circle (at -1.27 -8.636) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
-    (pad 5 thru_hole circle (at 10.16 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad "" np_thru_hole circle (at 11.43 -8.636 180) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.27 -8.636 180) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
+    (pad 5 thru_hole circle (at 10.16 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 23 L_Encoder_Gnd))
-    (pad 4 thru_hole circle (at 7.62 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 4 thru_hole circle (at 7.62 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 24 L_Encoder_ZO))
-    (pad 3 thru_hole circle (at 5.08 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 3 thru_hole circle (at 5.08 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 25 L_Encoder_BO))
-    (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 2.54 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 26 L_Encoder_AO))
-    (pad 1 thru_hole circle (at 0 0) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0 180) (size 1.524 1.524) (drill 0.9) (layers *.Cu *.Mask)
       (net 27 L_Encoder_5V))
     (model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Connctors/Molex_SL_05_Horizontal.stp"
       (offset (xyz 12.69999980926514 12.95399980545044 0))
@@ -1489,7 +1489,7 @@
   )
 
   (module Footprints:PowerResistorMounts locked (layer F.Cu) (tedit 5C7DE4AC) (tstamp 5DE37EB5)
-    (at 144.78 31.75 180)
+    (at 138.557 84.709 180)
     (path /5C72BB52)
     (fp_text reference 50W2RJ1 (at 20.930409 -0.281749) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1525,18 +1525,18 @@
       (net 22 P_Resistor+))
   )
 
-  (dimension 177.8 (width 0.15) (layer F.SilkS)
-    (gr_text "7.0000 in" (at 140.97 141) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (feature1 (pts (xy 229.87 139.7) (xy 229.87 140.286421)))
-    (feature2 (pts (xy 52.07 139.7) (xy 52.07 140.286421)))
-    (crossbar (pts (xy 52.07 139.7) (xy 229.87 139.7)))
-    (arrow1a (pts (xy 229.87 139.7) (xy 228.743496 140.286421)))
-    (arrow1b (pts (xy 229.87 139.7) (xy 228.743496 139.113579)))
-    (arrow2a (pts (xy 52.07 139.7) (xy 53.196504 140.286421)))
-    (arrow2b (pts (xy 52.07 139.7) (xy 53.196504 139.113579)))
-  )
+  (gr_arc (start 232.3465 122.301) (end 232.3465 122.936) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5AA6E))
+  (gr_arc (start 232.3465 73.533) (end 232.9815 73.533) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5AA6E))
+  (gr_arc (start 55.753 73.533) (end 55.753 72.898) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5AA6E))
+  (gr_arc (start 55.753 122.301) (end 55.118 122.301) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 76.327 72.898) (end 211.836 72.898) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5AA65))
+  (gr_line (start 76.26858 122.936) (end 211.836 122.936) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5AA64))
+  (gr_line (start 55.118 122.936) (end 55.118 73.533) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5AA4F))
+  (gr_line (start 55.753 122.936) (end 76.26858 122.936) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5A991))
+  (gr_line (start 55.753 72.898) (end 76.327 72.898) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5A991))
+  (gr_line (start 232.9815 73.533) (end 232.9815 122.301) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5A996))
+  (gr_line (start 211.836 72.898) (end 232.3465 72.898) (layer Edge.Cuts) (width 0.15) (tstamp 5DE5A991))
+  (gr_line (start 211.836 122.936) (end 232.3465 122.936) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 162.179 149.098) (end 35.179 149.098) (layer F.Fab) (width 0.2) (tstamp 5CABFF51))
 
 )
