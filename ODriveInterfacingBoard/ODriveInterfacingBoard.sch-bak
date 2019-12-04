@@ -40,23 +40,23 @@ $EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
 U 1 1 5C7282A5
-P 4550 1850
-F 0 "Conn7" H 4200 1900 60  0000 L CNN
-F 1 "M0_A" H 4522 2003 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1300 60  0001 C CNN
-F 3 "" H 4400 1300 60  0001 C CNN
-	1    4550 1850
+P 4550 1350
+F 0 "Conn7" H 4200 1400 60  0000 L CNN
+F 1 "M0_A" H 4522 1503 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 800 60  0001 C CNN
+F 3 "" H 4400 800 60  0001 C CNN
+	1    4550 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
 U 3 1 5C7282C7
-P 4550 1350
-F 0 "Conn7" H 4523 1397 60  0000 R CNN
-F 1 "M0_A" H 4523 1503 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 800 60  0001 C CNN
-F 3 "" H 4400 800 60  0001 C CNN
-	3    4550 1350
+P 4550 1850
+F 0 "Conn7" H 4523 1897 60  0000 R CNN
+F 1 "M0_A" H 4523 2003 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1300 60  0001 C CNN
+F 3 "" H 4400 1300 60  0001 C CNN
+	3    4550 1850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -694,35 +694,9 @@ Rx
 Text GLabel 6350 5300 1    50   Input ~ 0
 Tx
 Wire Wire Line
-	7250 5300 7250 5500
-$Comp
-L ODriveInterfacingBoard-rescue:+3V3-power #PWR016
-U 1 1 5C751179
-P 7250 5300
-F 0 "#PWR016" H 7250 5150 50  0001 C CNN
-F 1 "+3V3" H 7265 5473 50  0000 C CNN
-F 2 "" H 7250 5300 50  0001 C CNN
-F 3 "" H 7250 5300 50  0001 C CNN
-	1    7250 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 6250 7250 6450
-Wire Wire Line
 	6800 6450 6800 6250
 Wire Wire Line
 	6350 6250 6350 6450
-$Comp
-L ODriveInterfacingBoard-rescue:GND-power #PWR017
-U 1 1 5C7453B6
-P 7250 6450
-F 0 "#PWR017" H 7250 6200 50  0001 C CNN
-F 1 "GND" H 7255 6277 50  0000 C CNN
-F 2 "" H 7250 6450 50  0001 C CNN
-F 3 "" H 7250 6450 50  0001 C CNN
-	1    7250 6450
-	1    0    0    -1  
-$EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:GND-power #PWR015
 U 1 1 5C745363
@@ -746,22 +720,9 @@ F 3 "" H 6350 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5950 7250 5800
-Wire Wire Line
 	6800 5800 6800 5950
 Wire Wire Line
 	6350 5800 6350 5950
-$Comp
-L ODriveInterfacingBoard-rescue:LED-Device D4
-U 1 1 5C7326D4
-P 7250 6100
-F 0 "D4" V 7288 5982 50  0000 R CNN
-F 1 "3v3 Green" H 7500 6200 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 6100 50  0001 C CNN
-F 3 "~" H 7250 6100 50  0001 C CNN
-	1    7250 6100
-	0    -1   -1   0   
-$EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:LED-Device D2
 U 1 1 5C732622
@@ -793,17 +754,6 @@ F 1 "1.5k" H 6420 5605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 5650 50  0001 C CNN
 F 3 "~" H 6350 5650 50  0001 C CNN
 	1    6350 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L ODriveInterfacingBoard-rescue:R-Device R4
-U 1 1 5C7321CE
-P 7250 5650
-F 0 "R4" H 7320 5696 50  0000 L CNN
-F 1 "1.5k" H 7320 5605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7180 5650 50  0001 C CNN
-F 3 "~" H 7250 5650 50  0001 C CNN
-	1    7250 5650
 	1    0    0    -1  
 $EndComp
 $Comp
