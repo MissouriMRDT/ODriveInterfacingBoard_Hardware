@@ -73,23 +73,23 @@ $EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn8
 U 3 1 5C728323
-P 4550 2100
-F 0 "Conn8" H 4522 2147 60  0000 R CNN
-F 1 "M1_A" H 4522 2253 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1550 60  0001 C CNN
-F 3 "" H 4400 1550 60  0001 C CNN
-	3    4550 2100
+P 4550 2600
+F 0 "Conn8" H 4522 2647 60  0000 R CNN
+F 1 "M1_A" H 4522 2753 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 2050 60  0001 C CNN
+F 3 "" H 4400 2050 60  0001 C CNN
+	3    4550 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn8
 U 1 1 5C728351
-P 4550 2600
-F 0 "Conn8" H 4150 2650 60  0000 L CNN
-F 1 "M1_A" H 4522 2753 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 2050 60  0001 C CNN
-F 3 "" H 4400 2050 60  0001 C CNN
-	1    4550 2600
+P 4550 2100
+F 0 "Conn8" H 4150 2150 60  0000 L CNN
+F 1 "M1_A" H 4522 2253 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1550 60  0001 C CNN
+F 3 "" H 4400 1550 60  0001 C CNN
+	1    4550 2100
 	-1   0    0    1   
 $EndComp
 $Comp
