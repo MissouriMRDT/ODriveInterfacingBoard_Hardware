@@ -39,17 +39,6 @@ F 3 "" H 4400 1050 60  0001 C CNN
 $EndComp
 $Comp
 L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
-U 1 1 5C7282A5
-P 4550 1350
-F 0 "Conn7" H 4200 1400 60  0000 L CNN
-F 1 "M0_A" H 4522 1503 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 800 60  0001 C CNN
-F 3 "" H 4400 800 60  0001 C CNN
-	1    4550 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
 U 3 1 5C7282C7
 P 4550 1850
 F 0 "Conn7" H 4523 1897 60  0000 R CNN
@@ -394,17 +383,17 @@ $EndComp
 Wire Wire Line
 	4850 6200 4850 6250
 Text GLabel 3300 6850 3    50   Output ~ 0
-M0_A
+ML_A
 Text GLabel 4850 6850 3    50   Output ~ 0
-M0_C
+ML_C
 Wire Wire Line
 	4850 6850 4850 6750
 Text GLabel 4850 5800 1    50   Input ~ 0
 ML_A
 Text GLabel 900  6850 3    50   Output ~ 0
-M1_A
+MR_A
 Text GLabel 1700 6850 3    50   Output ~ 0
-M1_B
+MR_B
 Text GLabel 2500 5800 1    50   Input ~ 0
 MR_A
 Text Notes 2450 5300 0    118  ~ 24
@@ -444,7 +433,7 @@ $EndComp
 Wire Wire Line
 	9200 1250 9450 1250
 Text GLabel 4100 6850 3    50   Output ~ 0
-M0_B
+ML_B
 Text GLabel 3300 5800 1    50   Input ~ 0
 ML_B
 Text GLabel 4100 5800 1    50   Input ~ 0
@@ -454,7 +443,7 @@ MR_B
 Text GLabel 1700 5800 1    50   Input ~ 0
 MR_C
 Text GLabel 2500 6850 3    50   Output ~ 0
-M1_C
+MR_C
 Connection ~ 3300 6750
 Wire Wire Line
 	3300 6750 3300 6850
@@ -878,4 +867,15 @@ Wire Notes Line
 	5400 1600 10600 1600
 Wire Notes Line
 	6200 5000 400  5000
+$Comp
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
+U 1 1 5C7282A5
+P 4550 1350
+F 0 "Conn7" H 4200 1400 60  0000 L CNN
+F 1 "ML_A" H 4522 1503 60  0000 R CNN
+F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 800 60  0001 C CNN
+F 3 "" H 4400 800 60  0001 C CNN
+	1    4550 1350
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
