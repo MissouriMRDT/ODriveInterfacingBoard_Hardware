@@ -31,7 +31,7 @@ L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
 U 2 1 5C728232
 P 4550 1600
 F 0 "Conn7" H 4350 1650 60  0000 C CNN
-F 1 "ML_B" H 4523 1753 60  0000 R CNN
+F 1 "ML" H 4523 1753 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1050 60  0001 C CNN
 F 3 "" H 4400 1050 60  0001 C CNN
 	2    4550 1600
@@ -42,7 +42,7 @@ L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
 U 3 1 5C7282C7
 P 4550 1850
 F 0 "Conn7" H 4523 1897 60  0000 R CNN
-F 1 "ML_C" H 4523 2003 60  0000 R CNN
+F 1 "ML" H 4523 2003 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1300 60  0001 C CNN
 F 3 "" H 4400 1300 60  0001 C CNN
 	3    4550 1850
@@ -53,7 +53,7 @@ L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn8
 U 2 1 5C7282FB
 P 4550 2350
 F 0 "Conn8" H 4350 2400 60  0000 C CNN
-F 1 "MR_B" H 4522 2503 60  0000 R CNN
+F 1 "MR" H 4522 2503 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1800 60  0001 C CNN
 F 3 "" H 4400 1800 60  0001 C CNN
 	2    4550 2350
@@ -64,7 +64,7 @@ L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn8
 U 3 1 5C728323
 P 4550 2600
 F 0 "Conn8" H 4522 2647 60  0000 R CNN
-F 1 "MR_C" H 4522 2753 60  0000 R CNN
+F 1 "MR" H 4522 2753 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 2050 60  0001 C CNN
 F 3 "" H 4400 2050 60  0001 C CNN
 	3    4550 2600
@@ -75,7 +75,7 @@ L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn8
 U 1 1 5C728351
 P 4550 2100
 F 0 "Conn8" H 4150 2150 60  0000 L CNN
-F 1 "MR_A" H 4522 2253 60  0000 R CNN
+F 1 "MR" H 4522 2253 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 1550 60  0001 C CNN
 F 3 "" H 4400 1550 60  0001 C CNN
 	1    4550 2100
@@ -872,7 +872,7 @@ L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors Conn7
 U 1 1 5C7282A5
 P 4550 1350
 F 0 "Conn7" H 4200 1400 60  0000 L CNN
-F 1 "ML_A" H 4522 1503 60  0000 R CNN
+F 1 "ML" H 4522 1503 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 4400 800 60  0001 C CNN
 F 3 "" H 4400 800 60  0001 C CNN
 	1    4550 1350
