@@ -1,4 +1,4 @@
-17175275611444705
+17206790231342082
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2211,6 +2211,13 @@ SMD 8540
 0
 4
 4
+CH340E
+MSOP10
+
+
+0
+10
+10
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -44218,6 +44225,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DRV2605LDGSR
+SOP50P490X110-10N
+DRV2605LDGSR-1
+Integrated Circuit
+0
+10
+10
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -46087,6 +46101,104 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP8266
+ESP-01
+Module, ESP-8266, ESP-01, 8 pin
+Module ESP-8266 ESP8266
+0
+8
+8
+ESP8266
+ESP-03
+Module, ESP-8266, ESP-03, 14 pad, SMD
+Module ESP-8266 ESP8266
+0
+14
+14
+ESP8266
+ESP-06
+
+
+0
+20
+20
+ESP8266
+ESP-07S
+Module, ESP-8266, ESP-07S, 14 pad, SMD
+Module ESP-8266 ESP8266
+0
+16
+16
+ESP8266
+ESP-07v2
+Module, ESP-8266, ESP-07v2, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+16
+16
+ESP8266
+ESP-12
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+16
+16
+ESP8266
+ESP-12E
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+ESP8266
+ESP-12E_SMD
+Module, ESP-8266, ESP-12, 16 pad, SMD
+Module ESP-8266 ESP8266
+0
+22
+22
+ESP8266
+ESP-13-WROOM-02
+Module, ESP-8266, ESP-13-WROOM-02, 18 pad, SMD
+Module ESP-8266 ESP8266
+0
+19
+19
+ESP8266
+ESP-201
+Module, ESP-8266, ESP-201, 26 pin, through hole, 0.1 inch
+Module ESP-8266 ESP8266
+0
+26
+26
+ESP8266
+ESP12F-Devkit-V3
+
+
+0
+30
+30
+ESP8266
+ESP2866EX_Chip
+
+
+0
+33
+33
+ESP8266
+NodeMCU-LoLinV3
+
+
+0
+30
+30
+ESP8266
+NodeMCU1.0(12-E)
+
+
+0
+30
+30
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -46241,20 +46353,6 @@ emi filter
 0
 5
 5
-Footprints
-ODriveInterfacingBoard
-
-
-0
-42
-42
-Footprints
-PowerResistorMounts
-
-
-0
-4
-2
 Fuse
 Fuse_0201_0603Metric
 Fuse SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -46969,6 +47067,13 @@ heatsink
 0
 2
 1
+IRLML6344TRPBF
+SOT95P240X112-3N
+
+
+0
+3
+3
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -51386,6 +51491,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP73831T-2ACI_OT
+SOT95P280X145-5N
+
+
+0
+5
+5
 MRDT_Actives
 IRLS3034_TO-263-7_P
 TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
@@ -69733,6 +69845,13 @@ rotary encoder
 0
 5
 4
+SOIC127P600X175-8N
+SOIC127P600X175-8N
+
+
+0
+8
+8
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -71126,6 +71245,13 @@ Logo WEEE
 0
 0
 0
+TPS73633DBVR
+SOT95P280X145-5N
+
+
+0
+5
+5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -75557,6 +75683,13 @@ transformer flyback
 0
 10
 10
+U.FL-R-SMT_01_
+HRS_U.FL-R-SMT(01)
+
+
+0
+3
+3
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -76327,3 +76460,10 @@ varistor SIOV
 0
 2
 2
+W25Q128FVSIF
+SOIC127P600X175-8N
+
+
+0
+8
+8
