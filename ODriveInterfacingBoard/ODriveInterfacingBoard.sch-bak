@@ -16,7 +16,7 @@ $EndDescr
 Text Notes 2200 750  0    99   ~ 20
 Odrive Pinout
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn3
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn3
 U 4 1 5C728113
 P 2850 1700
 F 0 "Conn3" H 3000 1950 60  0000 C CNN
@@ -27,7 +27,7 @@ F 3 "" H 2700 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn7
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn7
 U 2 1 5C728232
 P 4550 1600
 F 0 "Conn7" H 4350 1650 60  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "" H 4400 1050 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn7
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn7
 U 3 1 5C7282C7
 P 4550 1850
 F 0 "Conn7" H 4523 1897 60  0000 R CNN
@@ -49,7 +49,7 @@ F 3 "" H 4400 1300 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn8
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn8
 U 2 1 5C7282FB
 P 4550 2350
 F 0 "Conn8" H 4350 2400 60  0000 C CNN
@@ -60,7 +60,7 @@ F 3 "" H 4400 1800 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn8
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn8
 U 3 1 5C728323
 P 4550 2600
 F 0 "Conn8" H 4522 2647 60  0000 R CNN
@@ -71,7 +71,7 @@ F 3 "" H 4400 2050 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn8
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn8
 U 1 1 5C728351
 P 4550 2100
 F 0 "Conn8" H 4150 2150 60  0000 L CNN
@@ -82,7 +82,7 @@ F 3 "" H 4400 1550 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue 50W2RJ1
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue 50W2RJ1
 U 1 1 5C72BB52
 P 2800 4600
 F 0 "50W2RJ1" V 2700 4600 50  0000 C CNN
@@ -109,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 2700 4150 2700
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn3
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn3
 U 1 1 5C72CC94
 P 2850 1950
 F 0 "Conn3" H 3000 1800 60  0000 C CNN
@@ -136,7 +136,7 @@ Connection ~ 1250 1850
 Wire Wire Line
 	1250 1850 1250 1750
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR03
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR03
 U 1 1 5C73E20E
 P 1100 1900
 F 0 "#PWR03" H 1100 1650 50  0001 C CNN
@@ -152,7 +152,7 @@ Connection ~ 1250 1900
 Wire Wire Line
 	1250 1900 1250 1850
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR013
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR013
 U 1 1 5C74723B
 P 9200 1250
 F 0 "#PWR013" H 9200 1000 50  0001 C CNN
@@ -183,7 +183,7 @@ MR_C
 Wire Notes Line
 	10250 450  10300 450 
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R3
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R3
 U 1 1 5C732270
 P 900 6400
 F 0 "R3" H 970 6446 50  0000 L CNN
@@ -194,7 +194,7 @@ F 3 "~" H 900 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R7
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R7
 U 1 1 5C732356
 P 1700 6400
 F 0 "R7" H 1770 6446 50  0000 L CNN
@@ -205,7 +205,7 @@ F 3 "~" H 1700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R9
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R9
 U 1 1 5C7323E8
 P 2500 6400
 F 0 "R9" H 2570 6446 50  0000 L CNN
@@ -216,7 +216,7 @@ F 3 "~" H 2500 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D3
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D3
 U 1 1 5C73267E
 P 700 6850
 F 0 "D3" V 738 6733 50  0000 R CNN
@@ -227,7 +227,7 @@ F 3 "~" H 700 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D5
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D5
 U 1 1 5C732728
 P 1100 6850
 F 0 "D5" V 1138 6732 50  0000 R CNN
@@ -238,7 +238,7 @@ F 3 "~" H 1100 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D7
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D7
 U 1 1 5C732788
 P 1500 6850
 F 0 "D7" V 1538 6732 50  0000 R CNN
@@ -249,7 +249,7 @@ F 3 "~" H 1500 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D9
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D9
 U 1 1 5C7327EA
 P 1900 6850
 F 0 "D9" V 1938 6733 50  0000 R CNN
@@ -260,7 +260,7 @@ F 3 "~" H 1900 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D11
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D11
 U 1 1 5C732844
 P 2300 6850
 F 0 "D11" V 2338 6732 50  0000 R CNN
@@ -271,7 +271,7 @@ F 3 "~" H 2300 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D13
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D13
 U 1 1 5C7328A6
 P 2700 6850
 F 0 "D13" V 2738 6733 50  0000 R CNN
@@ -282,7 +282,7 @@ F 3 "~" H 2700 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R6
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R6
 U 1 1 5C761CCC
 P 3300 6400
 F 0 "R6" H 3370 6446 50  0000 L CNN
@@ -293,7 +293,7 @@ F 3 "~" H 3300 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R8
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R8
 U 1 1 5C761CD2
 P 4100 6400
 F 0 "R8" H 4170 6446 50  0000 L CNN
@@ -304,7 +304,7 @@ F 3 "~" H 4100 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R10
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R10
 U 1 1 5C761CD8
 P 4850 6400
 F 0 "R10" H 4920 6446 50  0000 L CNN
@@ -315,7 +315,7 @@ F 3 "~" H 4850 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D6
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D6
 U 1 1 5C761CF0
 P 3100 6850
 F 0 "D6" V 3138 6733 50  0000 R CNN
@@ -326,7 +326,7 @@ F 3 "~" H 3100 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D8
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D8
 U 1 1 5C761CF6
 P 3500 6850
 F 0 "D8" V 3538 6732 50  0000 R CNN
@@ -337,7 +337,7 @@ F 3 "~" H 3500 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D10
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D10
 U 1 1 5C761CFC
 P 3900 6850
 F 0 "D10" V 3938 6732 50  0000 R CNN
@@ -348,7 +348,7 @@ F 3 "~" H 3900 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D12
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D12
 U 1 1 5C761D02
 P 4300 6850
 F 0 "D12" V 4338 6733 50  0000 R CNN
@@ -359,7 +359,7 @@ F 3 "~" H 4300 6850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D14
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D14
 U 1 1 5C761D08
 P 4650 6850
 F 0 "D14" V 4688 6732 50  0000 R CNN
@@ -370,7 +370,7 @@ F 3 "~" H 4650 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D15
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D15
 U 1 1 5C761D0E
 P 5050 6850
 F 0 "D15" V 5088 6733 50  0000 R CNN
@@ -399,7 +399,7 @@ MR_A
 Text Notes 2450 5300 0    118  ~ 24
 Indicators
 $Comp
-L ODriveInterfacingBoard-rescue:ODrive-ODrive-ODriveInterfacingBoard-rescue U1
+L ODriveInterfacingBoard-rescue:ODrive-ODrive-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue U1
 U 1 1 5C7A5CC6
 P 3700 2750
 F 0 "U1" H 3700 4265 50  0000 C CNN
@@ -420,7 +420,7 @@ Rx
 Wire Wire Line
 	9400 1150 9450 1150
 $Comp
-L ODriveInterfacingBoard-rescue:Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn9
+L ODriveInterfacingBoard-rescue:Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn9
 U 1 1 5C9F2E94
 P 9650 1400
 F 0 "Conn9" H 9777 1608 60  0000 L CNN
@@ -648,7 +648,7 @@ Wire Wire Line
 NoConn ~ 1300 2550
 NoConn ~ 1800 2550
 $Comp
-L ODriveInterfacingBoard-rescue:ODrive-ODrive-ODriveInterfacingBoard-rescue U1
+L ODriveInterfacingBoard-rescue:ODrive-ODrive-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue U1
 U 2 1 5C7A5B7A
 P 1400 3400
 F 0 "U1" H 1550 5665 50  0000 C CNN
@@ -674,16 +674,16 @@ Wire Wire Line
 	5900 6350 5900 6150
 Wire Wire Line
 	5450 6150 5450 6350
-Text GLabel 5900 6150 1    50   Input ~ 0
-Rx
 Text GLabel 5450 6150 1    50   Input ~ 0
+Rx
+Text GLabel 5900 6150 1    50   Input ~ 0
 Tx
 Wire Wire Line
 	5900 7300 5900 7100
 Wire Wire Line
 	5450 7100 5450 7300
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR015
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR015
 U 1 1 5C745363
 P 5900 7300
 F 0 "#PWR015" H 5900 7050 50  0001 C CNN
@@ -694,7 +694,7 @@ F 3 "" H 5900 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR014
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR014
 U 1 1 5C7452E5
 P 5450 7300
 F 0 "#PWR014" H 5450 7050 50  0001 C CNN
@@ -709,7 +709,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 6650 5450 6800
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D2
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D2
 U 1 1 5C732622
 P 5900 6950
 F 0 "D2" V 5938 6833 50  0000 R CNN
@@ -720,7 +720,7 @@ F 3 "~" H 5900 6950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D1
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D1
 U 1 1 5C732527
 P 5450 6950
 F 0 "D1" V 5488 6833 50  0000 R CNN
@@ -731,7 +731,7 @@ F 3 "~" H 5450 6950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R1
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R1
 U 1 1 5C732438
 P 5450 6500
 F 0 "R1" H 5520 6546 50  0000 L CNN
@@ -742,7 +742,7 @@ F 3 "~" H 5450 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R2
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R2
 U 1 1 5C73216A
 P 5900 6500
 F 0 "R2" H 5970 6546 50  0000 L CNN
@@ -844,7 +844,7 @@ Molex Connectors
 Wire Notes Line
 	400  5400 400  5450
 $Comp
-L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn7
+L ODriveInterfacingBoard-rescue:AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn7
 U 1 1 5C7282A5
 P 4550 1350
 F 0 "Conn7" H 4200 1400 60  0000 L CNN
@@ -919,7 +919,7 @@ R_Encoder_A
 Wire Wire Line
 	6400 6450 6400 6250
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR01
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR01
 U 1 1 5E05AC09
 P 6400 6450
 F 0 "#PWR01" H 6400 6200 50  0001 C CNN
@@ -932,7 +932,7 @@ $EndComp
 Wire Wire Line
 	6400 5800 6400 5950
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D4
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D4
 U 1 1 5E05AC10
 P 6400 6100
 F 0 "D4" V 6438 5983 50  0000 R CNN
@@ -943,7 +943,7 @@ F 3 "~" H 6400 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R4
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R4
 U 1 1 5E05AC16
 P 6400 5650
 F 0 "R4" H 6470 5696 50  0000 L CNN
@@ -960,7 +960,7 @@ R_Encoder_B
 Wire Wire Line
 	6850 6450 6850 6250
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR02
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR02
 U 1 1 5E060829
 P 6850 6450
 F 0 "#PWR02" H 6850 6200 50  0001 C CNN
@@ -973,7 +973,7 @@ $EndComp
 Wire Wire Line
 	6850 5800 6850 5950
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D16
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D16
 U 1 1 5E060830
 P 6850 6100
 F 0 "D16" V 6888 5983 50  0000 R CNN
@@ -984,7 +984,7 @@ F 3 "~" H 6850 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R5
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R5
 U 1 1 5E060836
 P 6850 5650
 F 0 "R5" H 6920 5696 50  0000 L CNN
@@ -1001,7 +1001,7 @@ R_Encoder_Z
 Wire Wire Line
 	7300 6450 7300 6250
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR04
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR04
 U 1 1 5E0655B3
 P 7300 6450
 F 0 "#PWR04" H 7300 6200 50  0001 C CNN
@@ -1014,7 +1014,7 @@ $EndComp
 Wire Wire Line
 	7300 5800 7300 5950
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D17
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D17
 U 1 1 5E0655BA
 P 7300 6100
 F 0 "D17" V 7338 5983 50  0000 R CNN
@@ -1025,7 +1025,7 @@ F 3 "~" H 7300 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R11
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R11
 U 1 1 5E0655C0
 P 7300 5650
 F 0 "R11" H 7370 5696 50  0000 L CNN
@@ -1042,7 +1042,7 @@ L_Encoder_A
 Wire Wire Line
 	7700 6450 7700 6250
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR05
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR05
 U 1 1 5E06A628
 P 7700 6450
 F 0 "#PWR05" H 7700 6200 50  0001 C CNN
@@ -1055,7 +1055,7 @@ $EndComp
 Wire Wire Line
 	7700 5800 7700 5950
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D18
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D18
 U 1 1 5E06A62F
 P 7700 6100
 F 0 "D18" V 7738 5983 50  0000 R CNN
@@ -1066,7 +1066,7 @@ F 3 "~" H 7700 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R12
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R12
 U 1 1 5E06A635
 P 7700 5650
 F 0 "R12" H 7770 5696 50  0000 L CNN
@@ -1083,7 +1083,7 @@ L_Encoder_B
 Wire Wire Line
 	8100 6450 8100 6250
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR06
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR06
 U 1 1 5E07000E
 P 8100 6450
 F 0 "#PWR06" H 8100 6200 50  0001 C CNN
@@ -1096,7 +1096,7 @@ $EndComp
 Wire Wire Line
 	8100 5800 8100 5950
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D19
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D19
 U 1 1 5E070015
 P 8100 6100
 F 0 "D19" V 8138 5983 50  0000 R CNN
@@ -1107,7 +1107,7 @@ F 3 "~" H 8100 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R13
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R13
 U 1 1 5E07001B
 P 8100 5650
 F 0 "R13" H 8170 5696 50  0000 L CNN
@@ -1124,7 +1124,7 @@ L_Encoder_Z
 Wire Wire Line
 	8500 6450 8500 6250
 $Comp
-L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue #PWR07
+L ODriveInterfacingBoard-rescue:GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR07
 U 1 1 5E075C9A
 P 8500 6450
 F 0 "#PWR07" H 8500 6200 50  0001 C CNN
@@ -1137,7 +1137,7 @@ $EndComp
 Wire Wire Line
 	8500 5800 8500 5950
 $Comp
-L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue D20
+L ODriveInterfacingBoard-rescue:LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D20
 U 1 1 5E075CA1
 P 8500 6100
 F 0 "D20" V 8538 5983 50  0000 R CNN
@@ -1148,7 +1148,7 @@ F 3 "~" H 8500 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue R14
+L ODriveInterfacingBoard-rescue:R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R14
 U 1 1 5E075CA7
 P 8500 5650
 F 0 "R14" H 8570 5696 50  0000 L CNN
@@ -1258,4 +1258,86 @@ Wire Notes Line
 	5400 400  5400 5400
 Wire Notes Line
 	5400 1600 10600 1600
+Wire Wire Line
+	8450 3150 8450 3250
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5F70B0B8
+P 8450 3650
+F 0 "J?" H 8507 4117 50  0000 C CNN
+F 1 "USB_B_Micro" H 8507 4026 50  0000 C CNN
+F 2 "" H 8600 3600 50  0001 C CNN
+F 3 "~" H 8600 3600 50  0001 C CNN
+	1    8450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J?
+U 1 1 5F8524E8
+P 8400 2250
+F 0 "J?" H 8457 2717 50  0000 C CNN
+F 1 "USB_A" H 8457 2626 50  0000 C CNN
+F 2 "" H 8550 2200 50  0001 C CNN
+F 3 " ~" H 8550 2200 50  0001 C CNN
+	1    8400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 2050 8900 2050
+Wire Wire Line
+	8700 2250 8850 2250
+Wire Wire Line
+	8700 2350 9000 2350
+Wire Wire Line
+	8400 2650 8400 2800
+Wire Wire Line
+	8300 2650 8300 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5F87E9A7
+P 8400 2800
+F 0 "#PWR?" H 8400 2550 50  0001 C CNN
+F 1 "GND" H 8405 2627 50  0000 C CNN
+F 2 "" H 8400 2800 50  0001 C CNN
+F 3 "" H 8400 2800 50  0001 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+Text Label 8900 2050 0    50   ~ 0
+VBUS
+Text Label 8850 2250 0    50   ~ 0
+D+
+Text Label 9000 2350 0    50   ~ 0
+D-
+Wire Wire Line
+	8750 3450 9000 3450
+Wire Wire Line
+	8750 3650 9000 3650
+Wire Wire Line
+	8750 3750 9150 3750
+Wire Wire Line
+	8450 4050 8450 4200
+Wire Wire Line
+	8350 4050 8100 4050
+Wire Wire Line
+	8100 4050 8100 2850
+Wire Wire Line
+	8100 2850 8300 2850
+Text Label 9000 3450 0    50   ~ 0
+VBUS
+Text Label 9000 3650 0    50   ~ 0
+D+
+Text Label 9150 3750 0    50   ~ 0
+D-
+$Comp
+L power:GND #PWR?
+U 1 1 5F8ADC68
+P 8450 4200
+F 0 "#PWR?" H 8450 3950 50  0001 C CNN
+F 1 "GND" H 8455 4027 50  0000 C CNN
+F 2 "" H 8450 4200 50  0001 C CNN
+F 3 "" H 8450 4200 50  0001 C CNN
+	1    8450 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

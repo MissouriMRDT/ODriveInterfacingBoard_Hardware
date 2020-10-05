@@ -1,6 +1,75 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_USB_A
+#
+DEF Connector_USB_A J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "Connector_USB_A" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -60 190 -170 210 0 1 0 F
+S -50 180 -180 230 0 1 0 N
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 2 1 1 10 -75 85 25 85 N
+X VBUS 1 300 200 100 L 50 50 1 1 W
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X GND 4 0 -400 100 U 50 50 1 1 W
+X Shield 5 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_USB_B_Micro
+#
+DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+ALIAS USB_B_Mini
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MRDT_Connectors_Molex_SL_05
 #
 DEF MRDT_Connectors_Molex_SL_05 Conn 0 40 Y Y 1 F N
@@ -18,11 +87,11 @@ X ~ 5 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ODriveInterfacingBoard-rescue_AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue
+# ODriveInterfacingBoard-rescue_AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue
 #
-DEF ODriveInterfacingBoard-rescue_AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn 0 0 N Y 5 L N
+DEF ODriveInterfacingBoard-rescue_AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "ODriveInterfacingBoard-rescue_AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue" 100 250 60 H V C CNN
+F1 "ODriveInterfacingBoard-rescue_AndersonPP-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -38,11 +107,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# ODriveInterfacingBoard-rescue_GND-power-ODriveInterfacingBoard-rescue
+# ODriveInterfacingBoard-rescue_GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue
 #
-DEF ODriveInterfacingBoard-rescue_GND-power-ODriveInterfacingBoard-rescue #PWR 0 0 Y Y 1 F P
+DEF ODriveInterfacingBoard-rescue_GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "ODriveInterfacingBoard-rescue_GND-power-ODriveInterfacingBoard-rescue" 0 -150 50 H V C CNN
+F1 "ODriveInterfacingBoard-rescue_GND-power-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -51,11 +120,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ODriveInterfacingBoard-rescue_LED-Device-ODriveInterfacingBoard-rescue
+# ODriveInterfacingBoard-rescue_LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue
 #
-DEF ODriveInterfacingBoard-rescue_LED-Device-ODriveInterfacingBoard-rescue D 0 40 N N 1 F N
+DEF ODriveInterfacingBoard-rescue_LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ODriveInterfacingBoard-rescue_LED-Device-ODriveInterfacingBoard-rescue" 0 -100 50 H V C CNN
+F1 "ODriveInterfacingBoard-rescue_LED-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -74,11 +143,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ODriveInterfacingBoard-rescue_Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue
+# ODriveInterfacingBoard-rescue_Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue
 #
-DEF ODriveInterfacingBoard-rescue_Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue Conn 0 40 Y Y 1 F N
+DEF ODriveInterfacingBoard-rescue_Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "ODriveInterfacingBoard-rescue_Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue" 50 350 60 H V C CNN
+F1 "ODriveInterfacingBoard-rescue_Molex_SL_03-MRDT_Connectors-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue" 50 350 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -89,11 +158,11 @@ X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ODriveInterfacingBoard-rescue_ODrive-ODrive-ODriveInterfacingBoard-rescue
+# ODriveInterfacingBoard-rescue_ODrive-ODrive-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue
 #
-DEF ODriveInterfacingBoard-rescue_ODrive-ODrive-ODriveInterfacingBoard-rescue U 0 40 Y Y 2 L N
+DEF ODriveInterfacingBoard-rescue_ODrive-ODrive-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue U 0 40 Y Y 2 L N
 F0 "U" 100 150 50 H V C CNN
-F1 "ODriveInterfacingBoard-rescue_ODrive-ODrive-ODriveInterfacingBoard-rescue" 150 100 50 H V C CNN
+F1 "ODriveInterfacingBoard-rescue_ODrive-ODrive-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue" 150 100 50 H V C CNN
 F2 "" 450 200 50 H I C CNN
 F3 "" 450 200 50 H I C CNN
 DRAW
@@ -150,11 +219,11 @@ X ~ ~ 250 1400 100 R 50 50 1 2 I
 ENDDRAW
 ENDDEF
 #
-# ODriveInterfacingBoard-rescue_R-Device-ODriveInterfacingBoard-rescue
+# ODriveInterfacingBoard-rescue_R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue
 #
-DEF ODriveInterfacingBoard-rescue_R-Device-ODriveInterfacingBoard-rescue R 0 0 N Y 1 F N
+DEF ODriveInterfacingBoard-rescue_R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "ODriveInterfacingBoard-rescue_R-Device-ODriveInterfacingBoard-rescue" 0 0 50 V V C CNN
+F1 "ODriveInterfacingBoard-rescue_R-Device-ODriveInterfacingBoard-rescue-ODriveInterfacingBoard-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
