@@ -1281,36 +1281,22 @@ F 3 " ~" H 8550 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2050 8900 2050
-Wire Wire Line
-	8700 2250 8850 2250
-Wire Wire Line
 	8700 2350 9000 2350
 Wire Wire Line
 	8400 2650 8400 2800
 Wire Wire Line
 	8300 2650 8300 2850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5F87E9A7
 P 8400 2800
-F 0 "#PWR?" H 8400 2550 50  0001 C CNN
+F 0 "#PWR0105" H 8400 2550 50  0001 C CNN
 F 1 "GND" H 8405 2627 50  0000 C CNN
 F 2 "" H 8400 2800 50  0001 C CNN
 F 3 "" H 8400 2800 50  0001 C CNN
 	1    8400 2800
 	1    0    0    -1  
 $EndComp
-Text Label 8900 2050 0    50   ~ 0
-VBUS
-Text Label 8850 2250 0    50   ~ 0
-D+
-Text Label 9000 2350 0    50   ~ 0
-D-
-Wire Wire Line
-	8750 3450 9000 3450
-Wire Wire Line
-	8750 3650 9000 3650
 Wire Wire Line
 	8750 3750 9150 3750
 Wire Wire Line
@@ -1321,21 +1307,58 @@ Wire Wire Line
 	8100 4050 8100 2850
 Wire Wire Line
 	8100 2850 8300 2850
-Text Label 9000 3450 0    50   ~ 0
-VBUS
-Text Label 9000 3650 0    50   ~ 0
-D+
-Text Label 9150 3750 0    50   ~ 0
-D-
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0106
 U 1 1 5F8ADC68
 P 8450 4200
-F 0 "#PWR?" H 8450 3950 50  0001 C CNN
+F 0 "#PWR0106" H 8450 3950 50  0001 C CNN
 F 1 "GND" H 8455 4027 50  0000 C CNN
 F 2 "" H 8450 4200 50  0001 C CNN
 F 3 "" H 8450 4200 50  0001 C CNN
 	1    8450 4200
 	1    0    0    -1  
 $EndComp
+Text GLabel 8950 1950 0    50   Input ~ 0
+VBUS
+Text GLabel 8850 2150 0    50   Input ~ 0
+D+
+Text GLabel 8850 2450 0    50   Input ~ 0
+D-
+Wire Wire Line
+	8950 1950 8950 2050
+Wire Wire Line
+	8700 2050 8950 2050
+Wire Wire Line
+	8850 2150 8900 2150
+Wire Wire Line
+	8900 2150 8900 2250
+Wire Wire Line
+	8700 2250 8900 2250
+Wire Wire Line
+	9000 2350 9000 2450
+Wire Wire Line
+	9000 2450 8850 2450
+Text GLabel 9050 3350 0    50   Input ~ 0
+VBUS
+Text GLabel 9000 3550 0    50   Input ~ 0
+D+
+Text GLabel 9000 3850 0    50   Input ~ 0
+D-
+Wire Wire Line
+	9050 3350 9100 3350
+Wire Wire Line
+	9100 3350 9100 3450
+Wire Wire Line
+	8750 3450 9100 3450
+Wire Wire Line
+	9000 3550 9050 3550
+Wire Wire Line
+	9050 3550 9050 3650
+Wire Wire Line
+	8750 3650 9050 3650
+Wire Wire Line
+	9150 3750 9150 3850
+Wire Wire Line
+	9150 3850 9000 3850
+NoConn ~ 8750 3850
 $EndSCHEMATC
